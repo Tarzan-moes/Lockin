@@ -1,0 +1,49 @@
+# ── Build outputs ──────────────────────────────────────────────────────
+*.iml
+.gradle/
+/build/
+/app/build/
+/captures/
+
+# ── Local configuration ───────────────────────────────────────────────
+local.properties
+
+# ── IDE files ─────────────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ── Log files ─────────────────────────────────────────────────────────
+*.log
+
+# ── External native build ─────────────────────────────────────────────
+.externalNativeBuild/
+.cxx/
+
+# ── Keystore files ────────────────────────────────────────────────────
+*.jks
+*.keystore
+
+# ── Firebase / Google services config ─────────────────────────────────
+google-services.json
+
+# ── AI model files (large binaries) ───────────────────────────────────
+*.tflite
+*.bin
+
+# ── Fastlane output ──────────────────────────────────────────────────
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ── Lint output ───────────────────────────────────────────────────────
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+
+# ── macOS ─────────────────────────────────────────────────────────────
+.DS_Store
+
+# ── Profiling ─────────────────────────────────────────────────────────
+*.hprof

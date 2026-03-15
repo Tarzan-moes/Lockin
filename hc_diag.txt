@@ -1,0 +1,174 @@
+﻿--------- beginning of main
+03-08 01:52:58.818 24402 24402 D TodayViewModel: Health permissions granted: true
+03-08 01:52:58.818 24402 24448 D HealthConnectManager: Reading steps for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:52:58.837 24402 24450 D HealthConnectManager: Steps records count: 0
+03-08 01:52:58.837 24402 24450 D HealthConnectManager: Steps total: 0
+03-08 01:52:58.837 24402 24402 D TodayViewModel: Steps loaded: 0
+03-08 01:52:58.838 24402 24450 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:52:58.844 24402 24450 D HealthConnectManager: Sleep records count: 0
+03-08 01:52:58.844 24402 24450 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:52:58.844 24402 24402 D TodayViewModel: Sleep loaded: totalMin=null deep=null rem=null
+03-08 01:52:58.845 24402 24449 D HealthConnectManager: Reading heart rate for today | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:52:58.846 24402 24449 D HealthConnectManager: HeartRate records count: 0
+03-08 01:52:58.846 24402 24449 D HealthConnectManager: HeartRate total samples: 0, latest: null
+03-08 01:52:58.846 24402 24402 D TodayViewModel: HeartRate loaded: samples=0 latest=null
+03-08 01:52:58.846 24402 24448 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:52:58.848 24402 24448 D HealthConnectManager: HRV records count: 0
+03-08 01:52:58.849 24402 24448 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:52:58.849 24402 24402 D TodayViewModel: HRV loaded: null
+03-08 01:52:58.849 24402 24448 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:52:58.852 24402 24448 D HealthConnectManager: Resting HR records count: 0
+03-08 01:52:58.852 24402 24448 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:52:58.852 24402 24402 D TodayViewModel: Resting HR loaded: null
+03-08 01:52:58.852 24402 24402 D TodayViewModel: Health summary ÔåÆ steps=0 sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:52:58.894 24402 24402 D TodayViewModel: UI state updated: steps=0 sleep=null HR=null HRV=null
+03-08 01:53:12.496 24620 24620 D TodayViewModel: Health permissions granted: true
+03-08 01:53:12.496 24620 24679 D HealthConnectManager: Reading steps for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:53:12.512 24620 24679 D HealthConnectManager: Steps records count: 0
+03-08 01:53:12.512 24620 24679 D HealthConnectManager: Steps total: 0
+03-08 01:53:12.512 24620 24620 D TodayViewModel: Steps loaded: 0
+03-08 01:53:12.513 24620 24679 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:53:12.516 24620 24679 D HealthConnectManager: Sleep records count: 0
+03-08 01:53:12.516 24620 24679 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:53:12.516 24620 24620 D TodayViewModel: Sleep loaded: totalMin=null deep=null rem=null
+03-08 01:53:12.517 24620 24679 D HealthConnectManager: Reading heart rate for today | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:53:12.520 24620 24679 D HealthConnectManager: HeartRate records count: 0
+03-08 01:53:12.520 24620 24679 D HealthConnectManager: HeartRate total samples: 0, latest: null
+03-08 01:53:12.520 24620 24620 D TodayViewModel: HeartRate loaded: samples=0 latest=null
+03-08 01:53:12.520 24620 24679 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:53:12.523 24620 24679 D HealthConnectManager: HRV records count: 0
+03-08 01:53:12.523 24620 24679 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:53:12.523 24620 24620 D TodayViewModel: HRV loaded: null
+03-08 01:53:12.523 24620 24679 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:53:12.526 24620 24679 D HealthConnectManager: Resting HR records count: 0
+03-08 01:53:12.526 24620 24679 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:53:12.526 24620 24620 D TodayViewModel: Resting HR loaded: null
+03-08 01:53:12.526 24620 24620 D TodayViewModel: Health summary ÔåÆ steps=0 sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:53:12.563 24620 24620 D TodayViewModel: UI state updated: steps=0 sleep=null HR=null HRV=null
+03-08 01:54:05.687 25756 25756 D TodayViewModel: Health permissions granted: false
+03-08 01:54:05.687 25756 25756 D TodayViewModel: Health summary ÔåÆ steps=null sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:54:05.753 25756 25756 D TodayViewModel: UI state updated: steps=null sleep=null HR=null HRV=null
+03-08 01:54:12.165 25756 25756 D TodayViewModel: Health permissions granted: true
+03-08 01:54:12.165 25756 25793 D HealthConnectManager: Reading steps for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:54:12.183 25756 25793 D HealthConnectManager: Steps records count: 0
+03-08 01:54:12.183 25756 25793 D HealthConnectManager: Steps total: 0
+03-08 01:54:12.183 25756 25756 D TodayViewModel: Steps loaded: 0
+03-08 01:54:12.184 25756 25793 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:54:12.186 25756 25793 D HealthConnectManager: Sleep records count: 0
+03-08 01:54:12.186 25756 25793 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:54:12.186 25756 25756 D TodayViewModel: Sleep loaded: totalMin=null deep=null rem=null
+03-08 01:54:12.186 25756 25793 D HealthConnectManager: Reading heart rate for today | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:54:12.187 25756 25793 D HealthConnectManager: HeartRate records count: 0
+03-08 01:54:12.187 25756 25793 D HealthConnectManager: HeartRate total samples: 0, latest: null
+03-08 01:54:12.187 25756 25756 D TodayViewModel: HeartRate loaded: samples=0 latest=null
+03-08 01:54:12.188 25756 25793 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:54:12.189 25756 25793 D HealthConnectManager: HRV records count: 0
+03-08 01:54:12.189 25756 25793 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:54:12.189 25756 25756 D TodayViewModel: HRV loaded: null
+03-08 01:54:12.189 25756 25793 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:54:12.190 25756 25793 D HealthConnectManager: Resting HR records count: 0
+03-08 01:54:12.190 25756 25793 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:54:12.190 25756 25756 D TodayViewModel: Resting HR loaded: null
+03-08 01:54:12.190 25756 25756 D TodayViewModel: Health summary ÔåÆ steps=0 sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:54:12.192 25756 25793 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:54:12.193 25756 25793 D HealthConnectManager: Sleep records count: 0
+03-08 01:54:12.193 25756 25793 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:54:12.194 25756 25793 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:54:12.195 25756 25793 D HealthConnectManager: HRV records count: 0
+03-08 01:54:12.195 25756 25793 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:54:12.195 25756 25793 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:54:12.196 25756 25793 D HealthConnectManager: Resting HR records count: 0
+03-08 01:54:12.196 25756 25793 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:54:12.203 25756 25756 D TodayViewModel: UI state updated: steps=0 sleep=null HR=null HRV=null
+03-08 01:55:14.667 25756 25756 D TodayViewModel: Health permissions granted: true
+03-08 01:55:14.667 25756 25795 D HealthConnectManager: Reading steps for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:14.673 25756 25795 D HealthConnectManager: Steps records count: 0
+03-08 01:55:14.673 25756 25795 D HealthConnectManager: Steps total: 0
+03-08 01:55:14.673 25756 25756 D TodayViewModel: Steps loaded: 0
+03-08 01:55:14.674 25756 25795 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:55:14.677 25756 25795 D HealthConnectManager: Sleep records count: 0
+03-08 01:55:14.677 25756 25795 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:55:14.677 25756 25756 D TodayViewModel: Sleep loaded: totalMin=null deep=null rem=null
+03-08 01:55:14.677 25756 25795 D HealthConnectManager: Reading heart rate for today | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:14.679 25756 25795 D HealthConnectManager: HeartRate records count: 0
+03-08 01:55:14.679 25756 25795 D HealthConnectManager: HeartRate total samples: 0, latest: null
+03-08 01:55:14.679 25756 25756 D TodayViewModel: HeartRate loaded: samples=0 latest=null
+03-08 01:55:14.679 25756 25795 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:14.682 25756 25795 D HealthConnectManager: HRV records count: 0
+03-08 01:55:14.682 25756 25795 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:55:14.682 25756 25756 D TodayViewModel: HRV loaded: null
+03-08 01:55:14.682 25756 25795 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:14.683 25756 25795 D HealthConnectManager: Resting HR records count: 0
+03-08 01:55:14.683 25756 25795 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:55:14.685 25756 25756 D TodayViewModel: Resting HR loaded: null
+03-08 01:55:14.685 25756 25756 D TodayViewModel: Health summary ÔåÆ steps=0 sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:55:14.689 25756 25756 D TodayViewModel: UI state updated: steps=0 sleep=null HR=null HRV=null
+03-08 01:55:25.457 25756 25756 D TodayViewModel: Health permissions granted: true
+03-08 01:55:25.458 25756 25795 D HealthConnectManager: Reading steps for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:25.463 25756 25795 D HealthConnectManager: Steps records count: 0
+03-08 01:55:25.463 25756 25795 D HealthConnectManager: Steps total: 0
+03-08 01:55:25.463 25756 25756 D TodayViewModel: Steps loaded: 0
+03-08 01:55:25.463 25756 25795 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:55:25.465 25756 25795 D HealthConnectManager: Sleep records count: 0
+03-08 01:55:25.465 25756 25795 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:55:25.465 25756 25756 D TodayViewModel: Sleep loaded: totalMin=null deep=null rem=null
+03-08 01:55:25.465 25756 25795 D HealthConnectManager: Reading heart rate for today | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:25.466 25756 25795 D HealthConnectManager: HeartRate records count: 0
+03-08 01:55:25.466 25756 25795 D HealthConnectManager: HeartRate total samples: 0, latest: null
+03-08 01:55:25.466 25756 25756 D TodayViewModel: HeartRate loaded: samples=0 latest=null
+03-08 01:55:25.466 25756 25795 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:25.467 25756 25795 D HealthConnectManager: HRV records count: 0
+03-08 01:55:25.467 25756 25795 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:55:25.467 25756 25756 D TodayViewModel: HRV loaded: null
+03-08 01:55:25.467 25756 25795 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:55:25.468 25756 25795 D HealthConnectManager: Resting HR records count: 0
+03-08 01:55:25.468 25756 25795 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:55:25.468 25756 25756 D TodayViewModel: Resting HR loaded: null
+03-08 01:55:25.468 25756 25756 D TodayViewModel: Health summary ÔåÆ steps=0 sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:55:25.473 25756 25756 D TodayViewModel: UI state updated: steps=0 sleep=null HR=null HRV=null
+03-08 01:58:46.944 27753 27753 D TodayViewModel: Health permissions granted: false
+03-08 01:58:46.944 27753 27753 D TodayViewModel: Health summary ÔåÆ steps=null sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:58:47.005 27753 27753 D TodayViewModel: UI state updated: steps=null sleep=null HR=null HRV=null
+03-08 01:59:28.524 27753 27753 D TodayViewModel: Health permissions granted: true
+03-08 01:59:28.524 27753 27821 D HealthConnectManager: Reading steps for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:59:28.543 27753 27821 D HealthConnectManager: Steps records count: 0
+03-08 01:59:28.543 27753 27821 D HealthConnectManager: Steps total: 0
+03-08 01:59:28.543 27753 27753 D TodayViewModel: Steps loaded: 0
+03-08 01:59:28.544 27753 27821 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:59:28.550 27753 27821 D HealthConnectManager: Sleep records count: 0
+03-08 01:59:28.550 27753 27821 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:59:28.552 27753 27753 D TodayViewModel: Sleep loaded: totalMin=null deep=null rem=null
+03-08 01:59:28.552 27753 27821 D HealthConnectManager: Reading heart rate for today | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:59:28.554 27753 27821 D HealthConnectManager: HeartRate records count: 0
+03-08 01:59:28.554 27753 27821 D HealthConnectManager: HeartRate total samples: 0, latest: null
+03-08 01:59:28.554 27753 27753 D TodayViewModel: HeartRate loaded: samples=0 latest=null
+03-08 01:59:28.555 27753 27821 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:59:28.557 27753 27821 D HealthConnectManager: HRV records count: 0
+03-08 01:59:28.557 27753 27821 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:59:28.557 27753 27753 D TodayViewModel: HRV loaded: null
+03-08 01:59:28.557 27753 27821 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:59:28.558 27753 27821 D HealthConnectManager: Resting HR records count: 0
+03-08 01:59:28.558 27753 27821 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:59:28.559 27753 27753 D TodayViewModel: Resting HR loaded: null
+03-08 01:59:28.559 27753 27753 D TodayViewModel: Health summary ÔåÆ steps=0 sleep=nullmin HR=null HRV=null RHR=null
+03-08 01:59:28.560 27753 27821 D HealthConnectManager: Reading sleep for 2026-03-08 | range: 2026-03-07T17:00:00Z ÔåÆ 2026-03-08T13:00:00Z
+03-08 01:59:28.562 27753 27821 D HealthConnectManager: Sleep records count: 0
+03-08 01:59:28.562 27753 27821 D HealthConnectManager: Sleep: no sessions found for 2026-03-08
+03-08 01:59:28.562 27753 27821 D HealthConnectManager: Reading HRV for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:59:28.564 27753 27821 D HealthConnectManager: HRV records count: 0
+03-08 01:59:28.564 27753 27821 D HealthConnectManager: HRV: no records for 2026-03-08
+03-08 01:59:28.564 27753 27821 D HealthConnectManager: Reading resting HR for 2026-03-08 | range: 2026-03-07T23:00:00Z ÔåÆ 2026-03-08T23:00:00Z
+03-08 01:59:28.565 27753 27821 D HealthConnectManager: Resting HR records count: 0
+03-08 01:59:28.565 27753 27821 D HealthConnectManager: Resting HR: no records for 2026-03-08
+03-08 01:59:28.573 27753 27753 D TodayViewModel: UI state updated: steps=0 sleep=null HR=null HRV=null
+03-08 02:03:55.630 32437 32437 D TODAY_SCREEN: ÔöüÔöüÔöü TodayScreen recomposed ÔöüÔöüÔöü
+03-08 02:03:55.631 32437 32437 D TODAY_SCREEN: healthPermissionsGranted=false
+03-08 02:03:55.631 32437 32437 D TODAY_SCREEN: stepsToday=null
+03-08 02:03:55.631 32437 32437 D TODAY_SCREEN: sleepData=null
+03-08 02:03:55.631 32437 32437 D TODAY_SCREEN: latestHeartRateBpm=null
+03-08 02:03:55.631 32437 32437 D TODAY_SCREEN: hrvValue=null
+03-08 02:03:55.631 32437 32437 D TODAY_SCREEN: restingHeartRate=null
+03-08 02:03:55.673 32437 32437 D TODAY_VM: ÔöüÔöüÔöü Health permissions granted: false ÔöüÔöüÔöü
+03-08 02:03:55.673 32437 32437 D TODAY_VM: Health summary ÔåÆ steps=null sleep=nullmin HR=null HRV=null RHR=null
+03-08 02:03:55.734 32437 32437 D TodayViewModel: UI state updated: steps=null sleep=null HR=null HRV=null
+03-08 02:03:55.734 32437 32437 D TODAY_VM: Updated uiState with steps: null

@@ -1,0 +1,510 @@
+﻿--------- beginning of main
+02-26 23:08:34.614  4727  4911 D TileLifecycleManager: Unbinding service Intent { act=android.service.quicksettings.action.QS_TILE xflg=0x4 cmp=com.samsung.android.app.routines/.LifestyleModeTile (has extras) } UserHandle{0}
+02-26 23:08:34.618 12765 12765 I Routine@Core[4.9.04.13]: LifestyleModeTile: onUnbind()
+02-26 23:08:34.619 12765 12765 I Routine@Core[4.9.04.13]: LifestyleModeTile: onDestroy()
+02-26 23:08:34.619 12765 12765 I Routine@Core[4.9.04.13]: LargeCoverScreenStateListener: unRegisterFoldStateListener
+02-26 23:08:34.637 12765 12765 I Routine@Core[4.9.04.13]: RoutineApplication: onTrimMemory: level : 40
+02-26 23:08:34.754  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224034361  [1940 / 113527]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 27567] [TID / 27568] [TID / 27531] [TID / 27552] 
+02-26 23:08:34.754  1940  1940 I SS_POWER_HINT_SESSION: SS_ADPF 27531-10459-7970 destroy
+02-26 23:08:34.755  1936  2076 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 224034361
+02-26 23:08:34.755  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224149830  [1940 / 113528]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TIMEOUT / 0] [TID / 27567] [TID / 27568] [TID / 27531] [TID / 27552] 
+02-26 23:08:34.756  1936  2076 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 224149830
+02-26 23:08:34.920  4727  4911 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 1 mStateBeforeClick.value =true enabled =false
+02-26 23:08:34.920  4727  4911 D Tile.SoundModeTile: handleSetListening: listening true
+02-26 23:08:34.921  4727  4911 D Tile.WifiTile: handleUpdateState isTransient=false transientEnabling =false cb.isTransient=false state.state = 1 mStateBeforeClick.value =true enabled =false
+02-26 23:08:34.921  4727  4911 D Tile.SoundModeTile: handleUpdateState: profile 0, muteAllSound false
+02-26 23:08:34.922  4727  4911 D Tile.SoundModeTile: handleSetListening: listening false
+02-26 23:08:34.925  4727  4911 D SRotationLockTile:  mRotationLocked: true handleUpdateState: false orientation = true
+02-26 23:08:34.925  4727  4911 D SRotationLockTile:  mRotationLocked: true handleUpdateState: false orientation = true
+02-26 23:08:34.926  4727  4911 D SRotationLockTile:  mRotationLocked: true handleUpdateState: false orientation = true
+02-26 23:08:34.929  4727  4911 D DeviceState: isESIM() :0 : false
+02-26 23:08:34.929  4727  4911 D NetworkController.MobileSignalController(1): isPowerOffServiceState,mCurrentState.getVoiceServiceState() = 1,mCurrentState.airplaneMode = false,mCurrentState.canCellularVoiceService() = true,mCurrentState.getMobileDataRegState() = false
+02-26 23:08:34.929  4727  4911 D Tile.AirplaneModeTile:  handleUpdateState mIsWiFiOnlyDevice false isNoSimState false isPowerOffServiceState false mSetting.getValue() 0 isSatelliteModeOn false isChinaDevice false
+02-26 23:08:34.929  4727  4911 D Tile.AirplaneModeTile:  handleUpdateState:  value = false, state = 1
+02-26 23:08:34.936  4727  4727 D SBluetoothControllerImpl: handleMessage : 3
+02-26 23:08:34.936  4727  4727 D SBluetoothControllerImpl: handleMessage : 2
+02-26 23:08:34.936  4727  4911 D SBluetoothTile:  handleUpdateState enabled = true connected = true connecting = false changedState =false bluetoothState = 12 enabledChanging = false state = QSTile$BooleanState[spec=Bluetooth,icon=ResourceIcon[resId=0x7f080f78],nextIcon=null,iconSupplier=null,label=Bluetooth,secondaryLabel=moes's Watch7,contentDescription=Bluetooth,stateDescription=null,dualLabelContentDescription=Connected to moes's Watch7.,expandedAccessibilityClassName=null,disabledByPolicy=false,dualTarget=true,isTransient=false,handlesSecondaryClick=false,state=2,sideViewCustomDrawable=null,tileClassName=null,value=true,forceExpandIcon=false]
+02-26 23:08:34.939  4727  4911 D SBluetoothTile:  handleUpdateState enabled = true connected = true connecting = false changedState =false bluetoothState = 12 enabledChanging = false state = QSTile$BooleanState[spec=Bluetooth,icon=ResourceIcon[resId=0x7f080f78],nextIcon=null,iconSupplier=null,label=Bluetooth,secondaryLabel=moes's Watch7,contentDescription=Bluetooth,stateDescription=null,dualLabelContentDescription=Connected to moes's Watch7.,expandedAccessibilityClassName=null,disabledByPolicy=false,dualTarget=true,isTransient=false,handlesSecondaryClick=false,state=2,sideViewCustomDrawable=null,tileClassName=null,value=true,forceExpandIcon=false]
+02-26 23:08:34.941  4727  4727 D SBluetoothControllerImpl: handleMessage : 4
+02-26 23:08:35.420  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074014] accel_sample [-0.140,  0.071,  9.771] 2095662812565792
+02-26 23:08:35.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143715
+02-26 23:08:35.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:35.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:35.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:35.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:35.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:35.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:35.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:35.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:36.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143716
+02-26 23:08:36.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:36.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:36.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:36.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:36.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:36.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:36.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:36.526  2051  2083 E HeatmapThread: !@ CAM is Working
+--------- beginning of system
+02-26 23:08:37.117  2440  4298 D ActivityManager: freezing 29333 com.samsung.faceservice
+02-26 23:08:37.119  2440  4298 D ActivityManager: freezing 19999 com.samsung.cmh
+02-26 23:08:37.161  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1231871:3513600:0:777215:2400000:0:222:222:0
+02-26 23:08:37.471  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074048] accel_sample [-0.131,  0.079,  9.769] 2095664863523813
+02-26 23:08:37.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143717
+02-26 23:08:37.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:37.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:37.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:37.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:37.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:37.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:37.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:37.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:37.651  1375  1375 D io_stats: !@   8,0 r 158239380 3723061316 w 86978190 1360855576 d 9061718 1337907856 f 2628893 7421126 iot 19168872 0 th 0 0 0 pt 0 inp 0 0 1270479.715
+02-26 23:08:37.652  1375  1375 D io_stats: !@ Read_top(KB): f2fs_ckpt-254:8:/(5421) 4
+02-26 23:08:37.653  1375  1375 D io_stats: !@ Write_top(KB): kworker/4:1:/(27249) 704 f2fs_ckpt-254:8:/(5421) 680 system_server:normal(2440) 608
+02-26 23:08:38.010  1967  2506 I thermal_core: pivot(AP) : 278, skin : 281
+02-26 23:08:38.043  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:08:38.044  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:38.044  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:08:38.044  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:08:38.044  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:38.044  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:08:38.045  7813  8415 I SDHMS:x : SIOP:: AP:278 BAT:265 USB:255 CHG:277 PA:283 WIFI:275 CF:273 BLK:0 SUBBAT:0 LRPTHM:268 SKIN:280 SKINF:280 SKINB:280 LRP:280 LRF:280 LRB:280 APT:280 APR:280 RCV:273 SPK:259 CHGF:277 CHGR:279 MEMF:278 MEMR:280 WIFIF:279 WIFIR:279 FCAM:255 UPSPK:267 DNSPK:255 VAP:280 VWIFI:274 AMB2:227 HIGH:0 AVGCUR:-29 POWER:-121
+02-26 23:08:38.046  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:08:38.047  2033  5051 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:08:38.047  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:08:38.047  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:08:38.048  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:08:38.048  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:08:38.048  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:08:38.048  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:08:38.048  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:38.049  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:38.049  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:38.051  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:08:38.051  2033  5051 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:08:38.052  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:08:38.052  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:08:38.052  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:08:38.052  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:08:38.052  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:08:38.052  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:08:38.052  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:38.053  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:38.053  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:38.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143718
+02-26 23:08:38.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:38.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:38.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:38.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:38.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:38.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:38.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:38.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:38.860  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:08:38.860  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:08:38.861  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:08:39.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143719
+02-26 23:08:39.522  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074082] accel_sample [-0.141,  0.069,  9.771] 2095666914489542
+02-26 23:08:39.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:39.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:39.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:39.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:39.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:39.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:39.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:39.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:39.654  1375  1375 D io_stats: !@   8,0 r 158239391 3723061472 w 86978190 1360855576 d 9061718 1337907856 f 2628893 7421126 iot 19168876 0 th 0 0 0 pt 0 inp 0 0 1270481.718
+02-26 23:08:40.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143720
+02-26 23:08:40.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:40.527  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:40.527  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:40.527  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:40.527  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:40.527  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:40.527  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:40.527  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:41.434  7157  7193 I Finsky  : [2532] Stats for Executor: GrpcBackgroundExecutor uxy@84573ce[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 6]
+02-26 23:08:41.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143721
+02-26 23:08:41.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:41.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:41.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:41.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:41.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:41.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:41.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:41.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:41.573  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074116] accel_sample [-0.136,  0.072,  9.771] 2095668965457563
+02-26 23:08:41.655  1375  1375 D io_stats: !@   8,0 r 158239391 3723061472 w 86978199 1360855604 d 9061718 1337907856 f 2628893 7421128 iot 19168884 0 th 0 0 0 pt 0 inp 0 0 1270483.719
+02-26 23:08:41.655  1375  1375 D io_stats: !@ Read_top(KB): com.discord:low(28028) 156
+02-26 23:08:41.655  1375  1375 D io_stats: !@ Write_top(KB): soft.appmanager:high(20107) 16 kworker/2:3:/(21666) 8 kworker/u17:4:/(24651) 4
+02-26 23:08:42.254  2440  2602 E Watchdog: !@Sync: 42330 heap(MB): 197 / 217 FD: 1607 [2026-02-26 23:08:42.254]
+02-26 23:08:42.319  2440  4298 D ActivityManager: freezing 18234 com.samsung.android.provider.filterprovider
+02-26 23:08:42.321  2440  4298 D ActivityManager: freezing 18821 com.android.settings
+02-26 23:08:42.322  2440  4298 D ActivityManager: freezing 18174 com.android.keychain
+02-26 23:08:42.323  2440  4298 D ActivityManager: freezing 13035 com.samsung.android.fmm
+02-26 23:08:42.325  2440  4298 D ActivityManager: freezing 4101 com.samsung.android.scpm
+02-26 23:08:42.327  2440  4298 D ActivityManager: freezing 18700 com.samsung.android.vtcamerasettings
+02-26 23:08:42.328  2440  4298 D ActivityManager: freezing 3984 com.samsung.android.camerasdkservice
+02-26 23:08:42.328  2440  4298 D ActivityManager: freezing 10820 com.samsung.android.globalpostprocmgr
+02-26 23:08:42.329  2440  4298 D ActivityManager: freezing 7964 com.samsung.android.lool
+02-26 23:08:42.331  2440  4298 D ActivityManager: freezing 23367 com.samsung.android.sm.provider
+02-26 23:08:42.331  2440  4298 D ActivityManager: freezing 30733 com.samsung.android.dqagent
+02-26 23:08:42.333  2440  4298 D ActivityManager: freezing 27713 com.sec.android.CcInfo
+02-26 23:08:42.334  2440  4298 D ActivityManager: freezing 28665 com.samsung.sait.sohservice
+02-26 23:08:42.335  2440  4298 D ActivityManager: freezing 32570 com.samsung.aasaservice
+02-26 23:08:42.336  2440  4298 D ActivityManager: freezing 31521 com.samsung.android.mdecservice
+02-26 23:08:42.336  2440  4298 D ActivityManager: freezing 18940 com.skms.android.agent:remote
+02-26 23:08:42.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143722
+02-26 23:08:42.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:42.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:42.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:42.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:42.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:42.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:42.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:42.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:42.649  1964  2063 E BatteryDump: !@new_battery_dump : 4172,-10,700,3370,79,265,255,275,265,0,281,275,0,Not-charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,9300,0x8000,0x11010000,0x0,0,0,154,v0002,0000,0000,00000000,0,0,0,0,100,4173,7961,1000,0,
+02-26 23:08:42.652  1967  1967 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+02-26 23:08:42.653  1964  1964 I sehhealth-service: updateLrpSysfs: write: 280
+02-26 23:08:43.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143723
+02-26 23:08:43.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:43.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:43.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:43.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:43.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:43.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:43.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:43.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:43.623  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074150] accel_sample [-0.138,  0.070,  9.768] 2095671016416313
+02-26 23:08:43.655  1375  1375 D io_stats: !@   8,0 r 158239425 3723062104 w 86978201 1360855612 d 9061942 1339237012 f 2628893 7421128 iot 19168928 0 th 0 0 0 pt 0 inp 0 0 1270485.719
+02-26 23:08:43.714  2440  2657 D BatteryExternalStatsWorker: update stats : procstate-change (14)
+02-26 23:08:43.716  2440  2657 D BatteryExternalStatsWorker: Fetch WiFi data
+02-26 23:08:43.719  2440  2657 D BatteryExternalStatsWorker: Update Rail Energy data
+02-26 23:08:43.719  2440  2657 D BatteryExternalStatsWorker: mStats lock released
+02-26 23:08:43.719  2440  2657 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+02-26 23:08:43.724  1916  1996 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+02-26 23:08:43.726  1916  1996 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+02-26 23:08:43.727  1916  1996 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+02-26 23:08:43.732  1916  6427 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+02-26 23:08:43.733  1916  6427 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Signal wack_cond_
+02-26 23:08:43.733  1916  1996 D vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Unblocked from waiting for FC, pthread_cond_timedwait ret = 0
+02-26 23:08:43.734  1916  6427 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+02-26 23:08:43.734  1916  6427 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+02-26 23:08:43.784  1916  6427 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+02-26 23:08:43.875  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:08:43.875  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:08:43.876  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:08:43.983  1916  6435 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+02-26 23:08:43.984  1916  6435 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+02-26 23:08:44.134  1916  5643 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+02-26 23:08:44.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143724
+02-26 23:08:44.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:44.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:44.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:44.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:44.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:44.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:44.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:44.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:44.875  2440 13889 I AppSearchIcing: icing-search-engine.cc:2175: Persisting data to disk
+02-26 23:08:44.881  2440 13889 I AppSearchIcing: icing-search-engine.cc:2191: PersistToDisk completed.
+02-26 23:08:45.445  7813  8396 I SDHMS:n : Periodic event 'saveLog' will starts soon.
+02-26 23:08:45.448  7813  8396 I SDHMS:x : Polling event syncDatabaseLocked will starts.
+02-26 23:08:45.450  7813  8396 I SDHMS:x : Polling event syncDatabaseLocked finished.
+02-26 23:08:45.450  7813  8396 I SDHMS:x : Polling event checkDatabaseLocked will starts.
+02-26 23:08:45.465  7813  8396 I SDHMS:x : Polling event checkDatabaseLocked finished.
+02-26 23:08:45.465  7813  8396 I SDHMS:x : Polling event checkDatabaseOverflow will starts.
+02-26 23:08:45.465  7813  8396 I SDHMS:x : Polling event checkDatabaseOverflow finished.
+02-26 23:08:45.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143725
+02-26 23:08:45.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:45.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:45.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:45.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:45.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:45.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:45.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:45.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:45.658  1375  1375 D io_stats: !@   8,0 r 158239496 3723062396 w 86978203 1360855616 d 9061942 1339237012 f 2628893 7421129 iot 19168948 0 th 0 0 0 pt 0 inp 0 0 1270487.722
+02-26 23:08:45.658  1375  1375 D io_stats: !@ Read_top(KB): sh:normal(27620) 536 c.android.sdhms:normal(7813) 284 logd:/(1177) 76
+02-26 23:08:45.658  1375  1375 D io_stats: !@ Write_top(KB): vendor.samsung.:normal(1964) 8 system_server:normal(2440) 4
+02-26 23:08:45.675  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074184] accel_sample [-0.123,  0.078,  9.775] 2095673067381625
+02-26 23:08:46.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143726
+02-26 23:08:46.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:46.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:46.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:46.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:46.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:46.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:46.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:46.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:47.255  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1017600:1017600:1017600:646656:2400000:556800:222:222:222
+02-26 23:08:47.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143727
+02-26 23:08:47.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:47.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:47.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:47.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:47.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:47.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:47.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:47.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:47.660  1375  1375 D io_stats: !@   8,0 r 158239496 3723062396 w 86978206 1360856096 d 9061942 1339237012 f 2628893 7421129 iot 19168952 0 th 0 0 0 pt 0 inp 0 0 1270489.724
+02-26 23:08:47.726  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074218] accel_sample [-0.152,  0.062,  9.773] 2095675118366000
+02-26 23:08:48.048  1967  2506 I thermal_core: pivot(AP) : 276, skin : 280
+02-26 23:08:48.087  1929  1929 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:08:48.087  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:48.087  1929  1929 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:08:48.088  1929  1929 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:08:48.088  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:48.088  1929  1929 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:08:48.090  7813  8415 I SDHMS:x : SIOP:: AP:276 BAT:265 USB:254 CHG:274 PA:280 WIFI:274 CF:272 BLK:0 SUBBAT:0 LRPTHM:267 SKIN:280 SKINF:279 SKINB:280 LRP:280 LRF:279 LRB:280 APT:279 APR:280 RCV:273 SPK:259 CHGF:277 CHGR:278 MEMF:278 MEMR:280 WIFIF:278 WIFIR:279 FCAM:255 UPSPK:267 DNSPK:255 VAP:279 VWIFI:274 AMB2:226 HIGH:0 AVGCUR:-12 POWER:-50
+02-26 23:08:48.090  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:08:48.092  2033  5051 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:08:48.093  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:08:48.093  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:08:48.093  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:08:48.093  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:08:48.093  1929  1929 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:08:48.093  1929  1929 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:08:48.094  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:48.095  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:48.095  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:48.096  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:08:48.096  2033  5051 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:08:48.097  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:08:48.097  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:08:48.097  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:08:48.097  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:08:48.097  1929  1929 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:08:48.097  1929  1929 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:08:48.097  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:48.098  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:48.098  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:48.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143728
+02-26 23:08:48.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:48.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:48.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:48.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:48.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:48.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:48.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:48.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:48.887  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:08:48.887  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:08:48.888  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:08:49.468  2440  4567 D UsbStatsMonitor: 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 223338299396
+02-26 23:08:49.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143729
+02-26 23:08:49.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:49.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:49.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:49.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:49.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:49.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:49.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:49.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:49.662  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:4:/(24651) 480
+02-26 23:08:49.777  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074252] accel_sample [-0.140,  0.070,  9.772] 2095677169354334
+02-26 23:08:50.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143730
+02-26 23:08:50.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:50.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:50.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:50.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:50.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:50.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:50.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:50.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:51.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143731
+02-26 23:08:51.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:51.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:51.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:51.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:51.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:51.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:51.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:51.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:51.827  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074286] accel_sample [-0.144,  0.065,  9.776] 2095679220319646
+02-26 23:08:52.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143732
+02-26 23:08:52.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:52.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:52.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:52.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:52.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:52.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:52.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:52.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:52.825  1967  1967 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+02-26 23:08:52.825  1964  2063 E BatteryDump: !@new_battery_dump : 4172,2,700,3370,79,265,254,273,265,0,280,273,0,Not-charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,9300,0x8000,0x11010000,0x0,0,0,124,v0002,0000,0000,00000000,0,0,0,0,100,4173,7961,1000,0,
+02-26 23:08:52.826  1964  1964 I sehhealth-service: updateLrpSysfs: write: 280
+02-26 23:08:53.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143733
+02-26 23:08:53.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:53.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:53.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:53.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:53.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:53.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:53.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:53.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:53.664  1375  1375 D io_stats: !@   8,0 r 158239496 3723062396 w 86978230 1360856372 d 9061942 1339237012 f 2628894 7421131 iot 19168956 0 th 0 0 0 pt 0 inp 0 0 1270495.728
+02-26 23:08:53.665  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:4:/(24651) 244 soft.appmanager:high(20107) 16 vendor.samsung.:normal(1964) 8
+02-26 23:08:53.878  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074320] accel_sample [-0.145,  0.070,  9.774] 2095681271259021
+02-26 23:08:53.904  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:08:53.906  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:08:53.907  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:08:54.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143734
+02-26 23:08:54.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:54.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:54.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:54.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:54.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:54.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:54.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:54.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:54.567 14226 14408 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=4567561d-b108-41bc-a080-d09e3ca03a3d, tags={ com.microsoft.office.outlook.calendar.workers.EventNotificationWorker, EventNotificationWorker_Periodic } ]
+02-26 23:08:54.573  2440  4268 I JobScheduler.HeavyJobController: com.samsung.android.smartsuggestions/androidx.work.impl.background.systemjob.SystemJobService has heavy job's constraints.
+02-26 23:08:54.573  2440  4268 I JobScheduler: HeavyJobController::heavy job upper limit: 600000(1800000|1800000)
+02-26 23:08:54.576  2440  4245 W ProcessStats: Tracking association SourceState{abfca4c com.sec.android.daemonapp:weather_content_provider/10243 BFgs #3966245} whose proc state 4 is better than process ProcessState{8ea9faa com.sec.android.daemonapp/10243 pkg=com.sec.android.daemonapp} proc state 5 (23 skipped)
+02-26 23:08:54.592  1531  1531 W keymint_tee: [WRN]begin req PARAMS: A32, BM2, PD64, 
+02-26 23:08:54.594  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (km_add_tag:528) skip: non repetable tag already exists with different value: 268435458
+02-26 23:08:54.594  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_begin() returns 0
+02-26 23:08:54.594  1531  1531 D android.hardware.security.keymint-service: begin: ret 0
+02-26 23:08:54.594  1528 11542 I keystore2: system/security/keystore2/src/security_level.rs:466 - In create_operation. Success to create IKeystoreOperation. 10133, None
+02-26 23:08:54.595  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_update() returns 0
+02-26 23:08:54.595  1531  1531 D android.hardware.security.keymint-service: update: ret 0
+02-26 23:08:54.596  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (handle_evp_error:504) Invalid Argument
+02-26 23:08:54.596  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (km_block_cipher_finish:1006) AES finish failed -38
+02-26 23:08:54.596  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (km_process_operation:665) Failed with error: 4294967258
+02-26 23:08:54.596  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (km_operation_drop:450) Failed to get operation by handle
+02-26 23:08:54.596  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_finish() returns -38
+02-26 23:08:54.596  1531  1531 D android.hardware.security.keymint-service: finish: ret -38
+02-26 23:08:54.596  1528 11542 E keystore2: system/security/keystore2/src/error.rs:183 - system/security/keystore2/src/operation.rs:852: KeystoreOperation::finish
+02-26 23:08:54.596  1528 11542 E keystore2: 
+02-26 23:08:54.596  1528 11542 E keystore2: Caused by:
+02-26 23:08:54.596  1528 11542 E keystore2:     0: system/security/keystore2/src/operation.rs:433: Finish failed for uid 10133
+02-26 23:08:54.596  1528 11542 E keystore2:     1: Error::Km(r#INVALID_ARGUMENT)
+02-26 23:08:54.597  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_abort() returns -28
+02-26 23:08:54.597  1531  1531 D android.hardware.security.keymint-service: abort: ret -28
+02-26 23:08:54.600  2440  4245 I ActivityManager: Changes in 10068 10 to 5, 0 to 144
+02-26 23:08:54.601  2440  4589 D BackgroundInstallControlService: Package event received: 0
+02-26 23:08:54.614  1531  1531 W keymint_tee: [WRN]begin req PARAMS: A32, BM2, PD64, 
+02-26 23:08:54.616  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (km_add_tag:528) skip: non repetable tag already exists with different value: 268435458
+02-26 23:08:54.616  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_begin() returns 0
+02-26 23:08:54.616  1531  1531 D android.hardware.security.keymint-service: begin: ret 0
+02-26 23:08:54.616  1528 11542 I keystore2: system/security/keystore2/src/security_level.rs:466 - In create_operation. Success to create IKeystoreOperation. 10133, None
+02-26 23:08:54.617  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_update() returns 0
+02-26 23:08:54.617  1531  1531 D android.hardware.security.keymint-service: update: ret 0
+02-26 23:08:54.618  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (handle_evp_error:504) Invalid Argument
+02-26 23:08:54.618  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (km_block_cipher_finish:1006) AES finish failed -38
+02-26 23:08:54.618  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (km_process_operation:665) Failed with error: 4294967258
+02-26 23:08:54.618  1531  1531 D keymint_swd: keymint_swd keymint [ERR] (km_operation_drop:450) Failed to get operation by handle
+02-26 23:08:54.618  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_finish() returns -38
+02-26 23:08:54.618  1531  1531 D android.hardware.security.keymint-service: finish: ret -38
+02-26 23:08:54.618  1528  1564 E keystore2: system/security/keystore2/src/error.rs:183 - system/security/keystore2/src/operation.rs:852: KeystoreOperation::finish
+02-26 23:08:54.618  1528  1564 E keystore2: 
+02-26 23:08:54.618  1528  1564 E keystore2: Caused by:
+02-26 23:08:54.618  1528  1564 E keystore2:     0: system/security/keystore2/src/operation.rs:433: Finish failed for uid 10133
+02-26 23:08:54.618  1528  1564 E keystore2:     1: Error::Km(r#INVALID_ARGUMENT)
+02-26 23:08:54.618  1531  1531 D keymint_swd: keymint_swd keymint [WRN] (swd_run_cb:267) swd_abort() returns -28
+02-26 23:08:54.618  1531  1531 D android.hardware.security.keymint-service: abort: ret -28
+02-26 23:08:54.621  7585  9677 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=e489dbaa-9a51-48f5-83c3-1664a296be84, tags={ com.samsung.android.smartsuggestions.contentmanagement.screenshot.ScreenshotWorker } ]
+02-26 23:08:55.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143735
+02-26 23:08:55.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:55.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:55.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:55.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:55.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:55.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:55.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:55.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:55.582  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+02-26 23:08:55.582  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:08:55.583  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+02-26 23:08:55.584  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:08:55.585  2440  4611 I SemWifiIntelligentTrainingManager: Tr. cond. check: false / 1 (2) / false / 0 (1)
+02-26 23:08:55.585  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+02-26 23:08:55.585  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:08:55.667  1375  1375 D io_stats: !@   8,0 r 158239688 3723065616 w 86978232 1360856380 d 9061942 1339237012 f 2628894 7421131 iot 19168988 0 th 0 0 0 pt 0 inp 0 0 1270497.730
+02-26 23:08:55.930  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074354] accel_sample [-0.143,  0.074,  9.775] 2095683322207355
+02-26 23:08:56.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143736
+02-26 23:08:56.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:56.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:56.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:56.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:56.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:56.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:56.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:56.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:57.356  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1017600:1017600:1017600:592895:1555200:556800:222:222:222
+02-26 23:08:57.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143737
+02-26 23:08:57.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:57.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:57.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:57.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:57.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:57.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:57.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:57.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:57.669  1375  1375 D io_stats: !@ Read_top(KB): martsuggestions:high(7585) 1524 .office.outlook:low(14226) 1064 providers.media:low(10056) 404
+02-26 23:08:57.669  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:0:/(25897) 116 c.android.sdhms:normal(7813) 8
+02-26 23:08:57.981  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074388] accel_sample [-0.141,  0.068,  9.771] 2095685373168605
+02-26 23:08:58.092  1967  2506 I thermal_core: pivot(AP) : 273, skin : 280
+02-26 23:08:58.130  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:08:58.131  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:58.131  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:08:58.131  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:08:58.131  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:58.131  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:08:58.132  7813  8415 I SDHMS:x : SIOP:: AP:273 BAT:265 USB:254 CHG:272 PA:277 WIFI:272 CF:271 BLK:0 SUBBAT:0 LRPTHM:267 SKIN:278 SKINF:278 SKINB:278 LRP:278 LRF:278 LRB:278 APT:278 APR:278 RCV:273 SPK:259 CHGF:276 CHGR:277 MEMF:277 MEMR:278 WIFIF:277 WIFIR:277 FCAM:255 UPSPK:267 DNSPK:255 VAP:278 VWIFI:274 AMB2:226 HIGH:0 AVGCUR:-3 POWER:-12
+02-26 23:08:58.133  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:08:58.134  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:08:58.135  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:08:58.135  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:08:58.135  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:08:58.135  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:08:58.135  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:08:58.135  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:08:58.135  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:58.136  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:58.136  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:58.137  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:08:58.137  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:08:58.137  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:08:58.137  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:08:58.138  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:08:58.138  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:08:58.138  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:08:58.138  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:08:58.138  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:08:58.138  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:58.139  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:08:58.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143738
+02-26 23:08:58.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:58.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:58.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:58.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:58.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:58.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:58.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:58.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:08:58.922  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:08:58.924  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:08:58.924  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:08:59.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143739
+02-26 23:08:59.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:08:59.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:08:59.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535728
+02-26 23:08:59.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:08:59.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:08:59.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:08:59.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:08:59.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:00.031  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074422] accel_sample [-0.139,  0.066,  9.772] 2095687424138813
+02-26 23:09:00.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143740
+02-26 23:09:00.527  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:00.527  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 265 
+02-26 23:09:00.527  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:00.527  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:00.527  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:00.527  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:00.527  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:00.527  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:00.640  2440  2612 I ActivityManager: Changes in 10068 5 to 10, 144 to 0

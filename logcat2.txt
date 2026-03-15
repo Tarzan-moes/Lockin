@@ -1,0 +1,1299 @@
+﻿--------- beginning of main
+02-26 23:09:25.296  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:25.296  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:25.296  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:25.296  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:25.297  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:25.297  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:25.297  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:25.297  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+--------- beginning of system
+02-26 23:09:25.488  2440  7650 D ActivityManager: force stop from com.android.server.am.ActivityManagerService.forceStopPackage:4 com.android.server.am.ActivityManagerShellCommand.runForceStop:106 com.android.server.am.ActivityManagerShellCommand.onCommand:1868 
+02-26 23:09:25.489  2440  7650 I ActivityManager: Force stopping com.lockin.app appid=10459 user=0: from pid 27649
+02-26 23:09:25.490  2440  7650 I ActivityManager: Killing 27531:com.lockin.app/u0a459 (adj 0): stop com.lockin.app due to from pid 27649
+02-26 23:09:25.491  2440  7650 D ActivityManager: proc ProcessRecord{25bc6ad 27531:com.lockin.app/u0a459} already removed. so we skip next process.
+02-26 23:09:25.491  2440  7650 W ActivityTaskManager: Force removing ActivityRecord{29905981 u0 com.lockin.app/.MainActivity t11320 f}}: app died, no saved state
+02-26 23:09:25.492  2440  7650 D InputTransport: Input channel destroyed: '72f0549', fd=1535
+02-26 23:09:25.492  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-26 23:09:25.493  2440  2553 D SGM:FgCheckThread: getForegroundApp(), foregroundPkgName=com.lockin.app
+02-26 23:09:25.493  2440  7650 V WindowManager: Remove Window{72f0549 u0 com.lockin.app/com.lockin.app.MainActivity}: mSurfaceControl=null mAnimatingExit=false mRemoveOnExit=false mHasSurface=false surfaceShowing=false animating=false app-animation=false callers=com.android.server.wm.WindowToken.removeAllWindowsIfPossible:45 com.android.server.wm.WindowToken.removeIfPossible:16 com.android.server.wm.ActivityRecord.onRemovedFromDisplay:407 com.android.server.wm.ActivityRecord.removeFromHistory:173 com.android.server.wm.WindowProcessController.handleAppDied$1:507 com.android.server.am.ActivityManagerService.handleAppDiedLocked:248 
+02-26 23:09:25.493  2440  7650 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+02-26 23:09:25.493  2440  4267 W UsageStatsService: Unexpected activity event reported! (com.lockin.app/com.lockin.app.MainActivity event : 23 instanceId : 172840323)
+02-26 23:09:25.493  6200  6246 V OsAgent : broadcastSystemEvent - 7
+02-26 23:09:25.493  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-26 23:09:25.494  2440  7650 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:25.494  2440  4529 D InetDiagMessage: Destroyed live tcp sockets for uids={10459} in 2ms
+02-26 23:09:25.494 16315 17040 I SAMSUNGWALLET: [Hint_ProcessStatusChange] invoke foreground activities changed - onProcessDied pid:27531 uid : 10459
+02-26 23:09:25.494  2074  4387 I SurfaceFlinger: id=349967 createSurf, flag=24004, Task=11320#349967
+02-26 23:09:25.494  2440 10430 D RemoteAppTaskWatcher:  ****** RemoteAppTaskWatcher: Message Received 3 Task ID = 11320
+02-26 23:09:25.494  2440  7650 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP_SLEEPING#2
+02-26 23:09:25.495  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-26 23:09:25.495  2440 10430 D RemoteAppTaskWatcher:  ****** RemoteAppTaskWatcher: Message Received 3 Task ID = 11320
+02-26 23:09:25.495  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-26 23:09:25.495  2440  4529 D InetDiagMessage: Destroyed live tcp sockets for uids={20459} in 1ms
+02-26 23:09:25.496 16315 16315 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - already invisible, skip hide : [4000003] - Disable on keyguard
+02-26 23:09:25.498  2440  7650 W ProcessStats: Tracking association SourceState{abfca4c com.sec.android.daemonapp:weather_content_provider/10243 BFgs #3966257} whose proc state 4 is better than process ProcessState{8ea9faa com.sec.android.daemonapp/10243 pkg=com.sec.android.daemonapp} proc state 5 (7 skipped)
+02-26 23:09:25.498  2440  2553 D SGM:FgCheckThread: pkgName: com.lockin.app is not in foreground
+02-26 23:09:25.498  5227  5227 I HoneySpace.TaskStackChangeRepositoryImpl: onTaskRemoved : 11320
+02-26 23:09:25.499  5227  5227 I HoneySpace.TaskStackChangeRepositoryImpl: onTaskRemoved : 11320
+02-26 23:09:25.499  5227  5312 I HoneySpace.TopTaskSource: onTaskRemoved: 11320
+02-26 23:09:25.499  5227  5227 I HoneySpace.TaskListViewModel[123748985]: taskRemoveId, 11320
+02-26 23:09:25.499  5227  5227 W HoneySpace.TaskListViewModel[123748985]: task is already removed: 11320
+02-26 23:09:25.499  5227  5227 I HoneySpace.TaskListViewModel[123748985]: taskRemoveId, 11320
+02-26 23:09:25.499  5227  5227 W HoneySpace.TaskListViewModel[123748985]: task is already removed: 11320
+02-26 23:09:25.499  2440  7650 I AppsFilter: interaction: PackageSetting{62c3eeb com.android.microdroid.empty_payload/10417} -> PackageSetting{c2c1e89 com.lockin.app/10459} BLOCKED
+02-26 23:09:25.499  5227  5312 I HoneySpace.TopTaskSource: onTaskRemoved: 11320
+02-26 23:09:25.500  5227  5314 I HoneySpace.TopTaskUseCase: topTasks 11316 ComponentInfo{com.snapchat.android/com.snap.mushroom.MainActivity}[displayId=0]
+02-26 23:09:25.502  2440  3408 I ActivityManager: broadcastAllowList remove BroadcastFilter{3301807 10304/u0 ReceiverList{38e8e46 25161 com.google.android.youtube/10304/u0 remote:4e60a21}}
+02-26 23:09:25.503  2440  4333 V InputMethodManagerService: Checking com.google.android.tts/com.google.android.apps.speech.tts.googletts.settings.asr.voiceime.VoiceInputMethodService
+02-26 23:09:25.504  5029  5327 D EuiccConnector: handleMessage: E msg.what=1
+02-26 23:09:25.504  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.google.android.tts/com.google.android.apps.speech.tts.googletts.settings.asr.voiceime.VoiceInputMethodService, settings: com.google.android.apps.speech.tts.googletts.settings.asr.voiceime.ui.VoiceImeSettingsActivity, languageSettings: null}
+02-26 23:09:25.504  2440  4333 V InputMethodManagerService: Checking com.samsung.android.honeyboard/.service.HoneyBoardService
+02-26 23:09:25.504  5029  5327 D EuiccConnector: processMsg: AvailableState
+02-26 23:09:25.504  5029  5327 D EuiccConnector: processMsg: UnavailableState
+02-26 23:09:25.504  5029  5029 D CarrierSvcBindHelper: onHandleForceStop: [com.lockin.app]
+02-26 23:09:25.504  2440  4542 D LocationManagerService: package com.lockin.app reset
+02-26 23:09:25.505  5029  5327 D EuiccConnector: transitionTo: destState=AvailableState
+02-26 23:09:25.505  5029  5029 D CarrierSvcBindHelper: No carrier app for: 0
+02-26 23:09:25.505  5029  5029 D CarrierSvcBindHelper: No carrier app for: 1
+02-26 23:09:25.505  4727  4911 D SecSTQuickControlRequestReceiver: onReceive intent = Intent { act=android.intent.action.PACKAGE_RESTARTED dat=package: flg=0x4000010 (has extras) }
+02-26 23:09:25.505  5029  5327 D EuiccConnector: handleMessage: new destination call exit/enter
+02-26 23:09:25.505  5029  5327 D EuiccConnector: setupTempStateStackWithStatesToEnter: X mTempStateStackCount=1,curStateInfo: state=UnavailableState,active=true,parent=null
+02-26 23:09:25.505  5029  5327 D EuiccConnector: invokeExitMethods: AvailableState
+02-26 23:09:25.505  5029  5327 D EuiccConnector: moveTempStackToStateStack: i=0,j=1
+02-26 23:09:25.505  5029  5327 D EuiccConnector: moveTempStackToStateStack: X mStateStackTop=1,startingIndex=1,Top=AvailableState
+02-26 23:09:25.505  5029  5327 D EuiccConnector: invokeEnterMethods: AvailableState
+02-26 23:09:25.505  5029  5327 D EuiccConnector: handleMessage: X
+02-26 23:09:25.505  4727  4727 D Navbar.Store: handleEvent(0) OnPackageRemoved(packageName=com.lockin.app) [Module] NavBarStoreImpl
+02-26 23:09:25.505  4727  4727 D Navbar.Store: --[Band]REMOTE_VIEW_PACK_PACKAGE_REMOVED
+02-26 23:09:25.505  4727  4727 D SecSTQuickControlRequestReceiver: onReceiveForPackage action = android.intent.action.PACKAGE_RESTARTED, pkgName = com.lockin.app
+02-26 23:09:25.506  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.samsung.android.honeyboard/.service.HoneyBoardService, settings: com.samsung.android.honeyboard.settings.common.HoneyBoardSettingsActivity, languageSettings: null}
+02-26 23:09:25.506  2440  4333 V InputMethodManagerService: Checking com.samsung.android.honeyboard/com.samsung.android.writingtoolkit.service.FakeHoneyBoardService
+02-26 23:09:25.506  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.samsung.android.honeyboard/com.samsung.android.writingtoolkit.service.FakeHoneyBoardService, settings: null, languageSettings: null}
+02-26 23:09:25.506  2440  4333 V InputMethodManagerService: Checking com.touchtype.swiftkey/com.touchtype.KeyboardService
+02-26 23:09:25.506  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.touchtype.swiftkey/com.touchtype.KeyboardService, settings: com.touchtype.LauncherActivityFromSystemSettings, languageSettings: null}
+02-26 23:09:25.506  2440  4333 V InputMethodManagerService: Checking com.snapchat.android/com.snap.keyboard.lib.SnapKeyboardIME
+02-26 23:09:25.507  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.snapchat.android/com.snap.keyboard.lib.SnapKeyboardIME, settings: com.snap.keyboard.lib.rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity, languageSettings: null}
+02-26 23:09:25.507  4727  4888 V ShellDesktopMode: Task Vanished: #11320 closed=true
+02-26 23:09:25.507  2440  4333 V InputMethodManagerService: --- re-buildInputMethodList reset = false 
+02-26 23:09:25.507  2440  4333 V InputMethodManagerService:  ------ caller=com.android.server.inputmethod.InputMethodManagerService$MyPackageMonitor.onFinishPackageChanges:399 com.android.internal.content.PackageMonitor.doHandlePackageEvent:596 com.android.internal.content.PackageMonitor.lambda$postHandlePackageEvent$0:435 com.android.internal.content.PackageMonitor.$r8$lambda$bSKEInwdT6Kd7GAyzMZPsXTTqeQ:0 com.android.internal.content.PackageMonitor$$ExternalSyntheticLambda0.run:0 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103 android.os.Looper.loopOnce:273 android.os.Looper.loop:363 android.os.HandlerThread.run:85 
+02-26 23:09:25.508  5227 27377 I HoneySpace.RecentTasks: onRunningTaskVanished
+02-26 23:09:25.508  5227 27084 I HoneySpace.RecentTasks: onRecentTasksChanged
+02-26 23:09:25.518  2440  4245 D InputMethodManagerService: onClientRemovedInternalLocked
+02-26 23:09:25.518  2440  7650 V ActivityManager: Got obituary of 27531:com.lockin.app
+02-26 23:09:25.518 14722 14722 I adbd    : Remote process closed the socket (on MSG_PEEK)
+02-26 23:09:25.518  2440  2553 W ActivityManager: setHasOverlayUi called on unknown pid: 27531
+02-26 23:09:25.520  2440  2630 I libprocessgroup: Removed cgroup /sys/fs/cgroup/apps/uid_10459/pid_27531
+02-26 23:09:25.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143765
+02-26 23:09:25.520  1827  1827 I Zygote  : Process 27531 exited due to signal 9 (Killed)
+02-26 23:09:25.522  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:25.522  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:25.522  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:25.522  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:25.522  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:25.522  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:25.522  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:25.522  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:25.522  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Task=11320#349962 z=15} 1 children}] reparent to OffscreenRoot
+02-26 23:09:25.522  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{Task=11320#349962 z=15} 1 children}] RelativeParent to null
+02-26 23:09:25.522  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ActivityRecord{29905981 u0 com.lockin.app/.MainActivity t11320}#349963} 1 children}] reparent to OffscreenRoot
+02-26 23:09:25.522  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{ActivityRecord{29905981 u0 com.lockin.app/.MainActivity t11320}#349963} 1 children}] RelativeParent to null
+02-26 23:09:25.522  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{72f0549 com.lockin.app/com.lockin.app.MainActivity#349964} no children}] reparent to OffscreenRoot
+02-26 23:09:25.522  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{72f0549 com.lockin.app/com.lockin.app.MainActivity#349964} no children}] RelativeParent to null
+02-26 23:09:25.522  2074  2074 I SurfaceFlinger: [Task=11320#349967] attach to parent OffscreenRoot
+02-26 23:09:25.523  2074  2074 I SurfaceFlinger: id=349967 Removed Task=11320#349967 (181)
+02-26 23:09:25.523  2074  2074 I SurfaceFlinger: id=349963 Removed ActivityRecord{29905981 u0 com.lockin.app/.MainActivity t11320}#349963 (181)
+02-26 23:09:25.523  2074  2074 I SurfaceFlinger: id=349964 Removed 72f0549 com.lockin.app/com.lockin.app.MainActivity#349964 (181)
+02-26 23:09:25.539  2074  2074 I SurfaceFlinger: destroyed ActivityRecord{29905981 u0 com.lockin.app/.MainActivity t11320}#349963 form LifecycleManager
+02-26 23:09:25.539  2074  2074 I SurfaceFlinger: destroyed Task=11320#349967 form LifecycleManager
+02-26 23:09:25.539  2074  2074 I SurfaceFlinger: destroyed 72f0549 com.lockin.app/com.lockin.app.MainActivity#349964 form LifecycleManager
+02-26 23:09:25.539  2074  2074 I SurfaceFlinger: id=349963 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{ActivityRecord{29905981 u0 com.lockin.app/.MainActivity t11320}#349963 !handle})
+02-26 23:09:25.539  2074  2074 I SurfaceFlinger: id=349967 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{Task=11320#349967 !handle z=15})
+02-26 23:09:25.539  2074  2074 I SurfaceFlinger: id=349964 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{72f0549 com.lockin.app/com.lockin.app.MainActivity#349964 !handle})
+02-26 23:09:25.539  2074  2074 I Layer   : id=349963 Destroyed ActivityRecord{29905981 u0 com.lockin.app/.MainActivity t11320}#349963
+02-26 23:09:25.539  2074  2074 I Layer   : id=349967 Destroyed Task=11320#349967
+02-26 23:09:25.539  2074  2074 I Layer   : id=349964 Destroyed 72f0549 com.lockin.app/com.lockin.app.MainActivity#349964
+02-26 23:09:25.594  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+02-26 23:09:25.594  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:09:25.595  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+02-26 23:09:25.596  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:09:25.597  2440  4611 I SemWifiIntelligentTrainingManager: Tr. cond. check: false / 1 (2) / false / 0 (1)
+02-26 23:09:25.597  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+02-26 23:09:25.597  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:09:25.688  1375  1375 D io_stats: !@   8,0 r 158239719 3723065996 w 86978294 1360856708 d 9062469 1339252572 f 2628896 7421137 iot 19169052 0 th 0 0 0 pt 0 inp 0 0 1270527.752
+02-26 23:09:25.689  1375  1375 D io_stats: !@ Read_top(KB): system_server:high(2440) 244 system_server:normal(2440) 88 logd:/(1177) 40
+02-26 23:09:25.689  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:0:/(25897) 24 vendor.samsung.:normal(1964) 8
+02-26 23:09:26.398  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.398  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.399  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.399  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.400  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.400  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.401  1902  2017 E minksocket: MinkIPC ERROR: ( 1902:2017 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.401  1902  2027 E minksocket: MinkIPC ERROR: ( 1902:2027 ) MinkIPC_preProcess:272 Client down, but cannot find corresponding minksession
+02-26 23:09:26.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143766
+02-26 23:09:26.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:26.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:26.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:26.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:26.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:26.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:26.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:26.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:26.622  2440  2624 I SemDvfsHyPerManager: acquire hyper - APP_LAUNCH/2440@571, type = -999
+02-26 23:09:26.622  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 4535137  [2440 / 571]    HINT : APP_LAUNCH    list : [TIMEOUT / 700] 
+02-26 23:09:26.622  2440  7653 D ActivityTaskManager: startActivityAsUser: callingPid=27658, callingUid=2000, caller=com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature:27 com.android.server.am.ActivityManagerShellCommand.runStartActivity:588 com.android.server.am.ActivityManagerShellCommand.onCommand:2030 com.android.modules.utils.BasicShellCommandHandler.exec:97 android.os.ShellCommand.exec:38 com.android.server.am.ActivityManagerService.onShellCommand:164 android.os.Binder.shellCommand:1187 
+02-26 23:09:26.623  1958  2106 E PERFHAL-RESOURCEQS: PERFHAL-RESOURCEQS: AddAndApply() 171: Failed to apply optimization [15, 7]
+02-26 23:09:26.622  7813  7813 I SemDvfsHyPerManager: acquire hyper - APP_START_SHORT/7813@24, type = -999
+02-26 23:09:26.623  7813  7813 I M0      : limitCPUFreq:: freq = -1
+02-26 23:09:26.623  2440  7653 W ActivityTaskManager: callingPackage for (uid=2000, pid=27658) has no WPC
+02-26 23:09:26.623  1958  2106 E PERFHAL-RESOURCEQS: PERFHAL-RESOURCEQS: AddAndApply() 171: Failed to apply optimization [15, 7]
+02-26 23:09:26.623  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 30713227  [7813 / 24]    HINT : APP_START_LOW_HEAT    list : [TIMEOUT / 1500] 
+02-26 23:09:26.623  2440  7653 D ActivityTaskManager: DesktopModeLaunchParamsModifier: task=null activity=null task null, skipping
+02-26 23:09:26.623  2440  7653 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=null display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea_d0@152362882 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea_d0@152362882
+02-26 23:09:26.623  1936  2076 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 30548839
+02-26 23:09:26.624  2440  7653 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+02-26 23:09:26.624  2440  7653 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+02-26 23:09:26.624  2440  7653 D WindowManager: Transition is created, t=TransitionRecord{1c66f6d id=-1 type=OPEN flags=0x0}, caller=com.android.server.wm.Transition.<init>:182 com.android.server.wm.TransitionController.createAndStartCollecting:106 com.android.server.wm.ActivityStarter.executeRequest:3606 com.android.server.wm.ActivityStarter.execute:1752 com.android.server.wm.ActivityTaskManagerService.startActivityAsUser:95 
+02-26 23:09:26.624  2440  7653 D BLASTSyncEngine: SyncGroup is created, id=22796, name=Transition-OPEN, caller=com.android.server.wm.BLASTSyncEngine$SyncGroup.<init>:52 com.android.server.wm.TransitionController.moveToCollecting:79 com.android.server.wm.TransitionController.createAndStartCollecting:109 com.android.server.wm.ActivityStarter.executeRequest:3606 com.android.server.wm.ActivityStarter.execute:1752 com.android.server.wm.ActivityTaskManagerService.startActivityAsUser:95 com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature:27 
+02-26 23:09:26.624  2440  7653 W BLASTSyncEngine: setSyncMethod, id=22796, method=0, caller=com.android.server.wm.TransitionController.moveToCollecting:91 com.android.server.wm.TransitionController.createAndStartCollecting:109 com.android.server.wm.ActivityStarter.executeRequest:3606 
+02-26 23:09:26.624  2440  7653 V WindowManager: Start collecting in Transition: TransitionRecord{1c66f6d id=22796 type=OPEN flags=0x0}, caller=com.android.server.wm.TransitionController.createAndStartCollecting:109 com.android.server.wm.ActivityStarter.executeRequest:3606 com.android.server.wm.ActivityStarter.execute:1752 com.android.server.wm.ActivityTaskManagerService.startActivityAsUser:95 com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature:27 
+02-26 23:09:26.624  2440  7653 V WindowManager: Collecting in transition 22796: ActivityRecord{46061474 u0 com.lockin.app/.MainActivity, caller=com.android.server.wm.TransitionController.collect:7 com.android.server.wm.ActivityStarter.startActivityUnchecked:98 com.android.server.wm.ActivityStarter.executeRequest:3651 com.android.server.wm.ActivityStarter.execute:1752 com.android.server.wm.ActivityTaskManagerService.startActivityAsUser:95 
+02-26 23:09:26.624  2440  7653 D ActivityTaskManager: DesktopModeLaunchParamsModifier: task=null activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t-1} task null, skipping
+02-26 23:09:26.624  2440  7653 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea_d0@152362882 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea_d0@152362882
+02-26 23:09:26.625  2440  7653 D ActivityTaskManager: DesktopModeLaunchParamsModifier: task=null activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t-1} task null, skipping
+02-26 23:09:26.625  2440  7653 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t-1} display-area-from-current-params=null display-area-from-default-fallback=DefaultTaskDisplayArea_d0@152362882 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea_d0@152362882 non-freeform-task-display-area display-area=DefaultTaskDisplayArea_d0@152362882 activity-requested-portrait freeform-size-mismatch=Rect(108, 752 - 1332, 2312)
+02-26 23:09:26.625  2440  7653 D ActivityTaskManager: Temporarily retain top process state for launching app
+02-26 23:09:26.625  2440 10430 D RemoteAppTaskWatcher:  ****** RemoteAppTaskWatcher: Message Received 0 Task ID = 11321
+02-26 23:09:26.625  2074  2469 I SurfaceFlinger: id=349968 createSurf, flag=24004, Task=11321#349968
+02-26 23:09:26.625  2440  7653 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP_SLEEPING#2
+02-26 23:09:26.625  2440  7653 D ActivityTaskManager: DesktopModeLaunchParamsModifier: task=Task{a415c33 #11321 type=standard A=10459:com.lockin.app} activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t-1} non-desktop, skipping
+02-26 23:09:26.625  2440  7653 D ActivityTaskManager: TaskLaunchParamsModifier:task=Task{a415c33 #11321 type=standard A=10459:com.lockin.app} activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t-1} display-from-task=0 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea_d0@152362882 inherit-from-task=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea_d0@152362882 activity-requested-portrait freeform-size-mismatch=Rect(108, 752 - 1332, 2312)
+02-26 23:09:26.625  2440  7653 V WindowManager: Collecting in transition 22796: Task{a415c33 #11321 type=standard A=10459:com.lockin.app}, caller=com.android.server.wm.Transition.collectExistenceChange:40 com.android.server.wm.ActivityStarter.startActivityInner:293 com.android.server.wm.ActivityStarter.startActivityUnchecked:111 com.android.server.wm.ActivityStarter.executeRequest:3651 com.android.server.wm.ActivityStarter.execute:1752 
+02-26 23:09:26.626  2440  7653 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+02-26 23:09:26.626  2074  2469 I SurfaceFlinger: id=349969 createSurf, flag=84004, ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}#349969
+02-26 23:09:26.626  2440  7653 V WindowManager: Checking theme of starting window: 0x7f0e010f
+02-26 23:09:26.626  2440  7653 V WindowManager: Translucent=false Floating=false ShowWallpaper=false Disable=false
+02-26 23:09:26.627  2440  7653 I AppsFilter: interaction: PackageSetting{62c3eeb com.android.microdroid.empty_payload/10417} -> PackageSetting{8679569 com.lockin.app/10459} BLOCKED
+02-26 23:09:26.627  2440  7653 D WindowManager: App launched activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}, state=1
+02-26 23:09:26.627  2440  7653 V WindowManager: Checking theme of starting window: 0x7f0e010f
+02-26 23:09:26.627  2440  7653 V WindowManager: Translucent=false Floating=false ShowWallpaper=false Disable=false
+02-26 23:09:26.627  2440  7653 D WindowManager: App launched activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}, state=1
+02-26 23:09:26.627  2440  7653 V WindowManager: Collecting in transition 22796: ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}, caller=com.android.server.wm.Transition.collectExistenceChange:40 com.android.server.wm.ActivityStarter.handleStartResult:761 com.android.server.wm.ActivityStarter.startActivityUnchecked:124 com.android.server.wm.ActivityStarter.executeRequest:3651 com.android.server.wm.ActivityStarter.execute:1752 
+02-26 23:09:26.627  2440  7653 V WindowManager: Requesting StartTransition: TransitionRecord{1c66f6d id=22796 type=OPEN flags=0x0 c=[
+02-26 23:09:26.627  2440  7653 V WindowManager:    ChangeInfo{e3ee71c container=Display{#0 state=OFF size=1440x3120 ROTATION_0} flags=0x0}
+02-26 23:09:26.627  2440  7653 V WindowManager:    ChangeInfo{6db1f25 container=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321} flags=0x0}
+02-26 23:09:26.627  2440  7653 V WindowManager:    ChangeInfo{a67b8fa container=DefaultTaskDisplayArea_d0@152362882 flags=0x0}
+02-26 23:09:26.627  2440  7653 V WindowManager:    ChangeInfo{3e21eab container=Task{a415c33 #11321 type=standard A=10459:com.lockin.app} flags=0x0}
+02-26 23:09:26.627  2440  7653 V WindowManager: ]
+02-26 23:09:26.627  2440  7653 V WindowManager: }, caller=com.android.server.wm.ActivityStarter.handleStartResult:982 com.android.server.wm.ActivityStarter.startActivityUnchecked:124 com.android.server.wm.ActivityStarter.executeRequest:3651 com.android.server.wm.ActivityStarter.execute:1752 com.android.server.wm.ActivityTaskManagerService.startActivityAsUser:95 
+02-26 23:09:26.627  2440  4333 V InputMethodManagerService: Checking com.google.android.tts/com.google.android.apps.speech.tts.googletts.settings.asr.voiceime.VoiceInputMethodService
+02-26 23:09:26.627  2440  7653 I Pageboost: stop alp
+02-26 23:09:26.628  2440  7653 I ActivityTaskManager: START u0 {flg=0x10000000 xflg=0x5 cmp=com.lockin.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+02-26 23:09:26.628  2440  7653 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/2440@21, type = -999
+02-26 23:09:26.628  5742  5742 E pageboostd: Received HALT command code 2
+02-26 23:09:26.628  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.google.android.tts/com.google.android.apps.speech.tts.googletts.settings.asr.voiceime.VoiceInputMethodService, settings: com.google.android.apps.speech.tts.googletts.settings.asr.voiceime.ui.VoiceImeSettingsActivity, languageSettings: null}
+02-26 23:09:26.628  4727  4888 V WindowManagerShell: Transition requested (#22796): android.os.BinderProxy@46d4523 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=11321 effectiveUid=10459 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.lockin.app/.MainActivity } baseActivity=ComponentInfo{com.lockin.app/com.lockin.app.MainActivity} topActivity=ComponentInfo{com.lockin.app/com.lockin.app.MainActivity} origActivity=null realActivity=ComponentInfo{com.lockin.app/com.lockin.app.MainActivity} numActivities=1 lastActiveTime=2095714077 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 maxWidth=-1 maxHeight=-1 defaultMinSize=220 desktopDefaultMinSize=304 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@9a94a20} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 113 - 0, 0) topActivityInfo=ActivityInfo{66a7fd9 com.lockin.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=true locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(108, 752 - 1332, 2312) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 113 - 1440, 2952) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive} topActivityBounds=null topActivityInDisplayCompat=false singleTapFromLetterbox=false} topActivityMainWindowFrame=null originallySupportedMultiWindow=true hasWallpaper=false rootAffinity=10459:com.lockin.app isTopTaskInStage=false CoverLauncherWidgetTask=false LaunchedFromAppsCoverLauncherTask=false LaunchedFromMultistarCoverLauncherTask=false isAllowedSeamlessRotation=false isTopTransparentActivity=false isAliasManaged=false hasConfigChanged=false snappingGuideBounds=null isAiKeyRemoveAppTask=false lastDesktopWindowingBounds=null lastExternalDesktopWindowingBounds=null safeCutoutInsets=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 22796 }
+02-26 23:09:26.628  2440  4333 V InputMethodManagerService: Checking com.samsung.android.honeyboard/.service.HoneyBoardService
+02-26 23:09:26.628  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 3029512  [2440 / 21]    HINT : AMS_APP_LAUNCH    list : 
+02-26 23:09:26.628  4727  4888 V ShellDesktopMode: DesktopTasksController: isDesktopModeShowing: hasVisibleTasks=false hasTopTransparentFullscreenTask=false
+02-26 23:09:26.628  4727  4888 V ShellDesktopMode: DesktopTasksController: isDesktopModeShowing: hasVisibleTasks=false hasTopTransparentFullscreenTask=false
+02-26 23:09:26.628  4727  4888 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+02-26 23:09:26.628  4727  4888 D ShellDesktopMode: handleRequest: TransitionRequestInfo {type=1, tid=11321, debugId=22796}
+02-26 23:09:26.628  7813  7813 I SemDvfsHyPerManager: acquire hyper - APP_START/7813@26, type = -999
+02-26 23:09:26.629  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 30728906  [7813 / 26]    HINT : APP_START_LOW_HEAT    list : 
+02-26 23:09:26.629  4727  4888 V ShellDesktopMode: DesktopTasksController: handleFullscreenTaskLaunch
+02-26 23:09:26.629  4727  4888 V ShellDesktopMode: DesktopTasksController: isDesktopModeShowing: hasVisibleTasks=false hasTopTransparentFullscreenTask=false
+02-26 23:09:26.629  4727  4888 V ShellDesktopMode: DesktopTasksController: handleRequest result=null
+02-26 23:09:26.630  2440 10430 D RemoteAppTaskWatcher:  ****** RemoteAppTaskWatcher: Message Received 4 Task ID = 11321
+02-26 23:09:26.630  2440 10430 D RemoteAppTaskWatcher:  ****** RemoteAppTaskWatcher: Message Received 0 Task ID = 11321
+02-26 23:09:26.631  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.samsung.android.honeyboard/.service.HoneyBoardService, settings: com.samsung.android.honeyboard.settings.common.HoneyBoardSettingsActivity, languageSettings: null}
+02-26 23:09:26.631  2440  4333 V InputMethodManagerService: Checking com.samsung.android.honeyboard/com.samsung.android.writingtoolkit.service.FakeHoneyBoardService
+02-26 23:09:26.631  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.samsung.android.honeyboard/com.samsung.android.writingtoolkit.service.FakeHoneyBoardService, settings: null, languageSettings: null}
+02-26 23:09:26.631  2440  4333 V InputMethodManagerService: Checking com.touchtype.swiftkey/com.touchtype.KeyboardService
+02-26 23:09:26.632  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.touchtype.swiftkey/com.touchtype.KeyboardService, settings: com.touchtype.LauncherActivityFromSystemSettings, languageSettings: null}
+02-26 23:09:26.632  2440  4333 V InputMethodManagerService: Checking com.snapchat.android/com.snap.keyboard.lib.SnapKeyboardIME
+02-26 23:09:26.633  2440  5570 V WindowManager: Starting Transition 22796, caller=com.android.server.wm.WindowOrganizerController.startTransition:47 com.android.server.wm.WindowOrganizerController.startTransition:1 android.window.IWindowOrganizerController$Stub.onTransact:259 
+02-26 23:09:26.633  2440  4333 V InputMethodManagerService: Found an input method InputMethodInfo{com.snapchat.android/com.snap.keyboard.lib.SnapKeyboardIME, settings: com.snap.keyboard.lib.rkr.simplekeyboard.inputmethod.latin.settings.SettingsActivity, languageSettings: null}
+02-26 23:09:26.634  2440  4333 V InputMethodManagerService: --- re-buildInputMethodList reset = false 
+02-26 23:09:26.634  2440  4333 V InputMethodManagerService:  ------ caller=com.android.server.inputmethod.InputMethodManagerService$MyPackageMonitor.onFinishPackageChanges:399 com.android.internal.content.PackageMonitor.doHandlePackageEvent:596 com.android.internal.content.PackageMonitor.lambda$postHandlePackageEvent$0:435 com.android.internal.content.PackageMonitor.$r8$lambda$bSKEInwdT6Kd7GAyzMZPsXTTqeQ:0 com.android.internal.content.PackageMonitor$$ExternalSyntheticLambda0.run:0 android.os.Handler.handleCallback:995 android.os.Handler.dispatchMessage:103 android.os.Looper.loopOnce:273 android.os.Looper.loop:363 android.os.HandlerThread.run:85 
+02-26 23:09:26.639  2074  2074 I SurfaceFlinger: [Display 0 name="Built-in Screen"#49] setFrameRateCategory: High
+02-26 23:09:26.639  2074  2074 I SurfaceFlinger: [Task=11321#349968] attach to parent LayerHierarchy{RequestedLayerState{DefaultTaskDisplayArea_d0#10 parentId=9} 20 children}
+02-26 23:09:26.639  2074  2074 I SurfaceFlinger: [ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}#349969] attach to parent LayerHierarchy{RequestedLayerState{Task=11321#349968 parentId=10} 1 children}
+02-26 23:09:26.640  5227  5312 I HoneySpace.TopTaskSource: onTaskMovedToFront : taskId = 11321, displayId = 0
+02-26 23:09:26.640  5227  5314 I HoneySpace.TopTaskUseCase: topTasks 11321 ComponentInfo{com.lockin.app/com.lockin.app.MainActivity}[displayId=0]
+02-26 23:09:26.641  4727  4888 D ShellDesktopMode: [u0] DesktopRepository: Removes freeform task: taskId=11320
+02-26 23:09:26.641  4727  4888 W ShellDesktopMode: [u0] DesktopRepository: No display id found for task: taskId=11320
+02-26 23:09:26.641  4727  4888 D ShellDesktopMode: [u0] DesktopRepository: Removes freeform task: taskId=11320
+02-26 23:09:26.641  4727  4888 W ShellDesktopMode: [u0] DesktopRepository: No display id found for task: taskId=11320
+02-26 23:09:26.641  5227 27084 I HoneySpace.RecentTasks: onRecentTasksChanged
+02-26 23:09:26.641  2440  2553 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=9333333, appVsyncOffsetNanos=16666666, frameRateOverrides=[{uid=10049 frameRateHz=60.000004}]
+02-26 23:09:26.642  2440  2555 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:26.642  5227 27379 I HoneySpace.RecentTasks: onRecentTasksChanged
+02-26 23:09:26.642  4727  4911 D StackScroller: onDisplayChanged for predraw skip to 1
+02-26 23:09:26.642  4727  4727 D DisplayLifecycle: updateDisplay id = 0
+02-26 23:09:26.642  2440  7653 D WifiDisplayAdapter: isFitToActiveDisplayLocked : false
+02-26 23:09:26.642  4727  4727 I AODTriggers: onAODEventDispatched = 4 / eventData = aod.e0@922bd9e
+02-26 23:09:26.642  4727  4727 I AOD_LIVE_CLOCK@LiveClockController: updateDisplayState: DISPLAY_STATE_OFF
+02-26 23:09:26.652  1827  1827 D Zygote  : Forked child process 27667
+02-26 23:09:26.652  2440  2625 I ActivityManager: Start proc 27667:com.lockin.app/u0a459 for top-activity {com.lockin.app/com.lockin.app.MainActivity}
+02-26 23:09:26.652  2440  2625 I ActivityManager: ProcessObserver broadcast disabled
+02-26 23:09:26.660 27667 27667 I com.lockin.app: Late-enabling -Xcheck:jni
+02-26 23:09:26.685 27667 27667 I com.lockin.app: Using CollectorTypeCMC GC.
+02-26 23:09:26.687 14722 14727 I adbd    : jdwp connection from 27667
+02-26 23:09:26.690 27667 27667 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-26 23:09:26.692 27667 27667 D ActivityThread: setConscryptValidator
+02-26 23:09:26.692 27667 27667 D ActivityThread: setConscryptValidator - put
+02-26 23:09:26.694  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074864] accel_sample [-0.139,  0.068,  9.775] 2095714086727250
+02-26 23:09:26.696  2440  5377 I ActivityManager: Changes in 10459 20 to 19, 0 to 255
+02-26 23:09:26.696  2440  2549 D SGM:GameManager: identifyForegroundApp. com.lockin.app, mCurrentUserId: 0, callerUserId: 0
+02-26 23:09:26.696  2440  2549 D SGM:SemGameManager: isForegroundGame(), ret=false
+02-26 23:09:26.696  2440  2549 D FingerprintProvider/default: onForegroundActivitiesChanged: pid = 27667, uid = 10459, foregroundActivities = true
+02-26 23:09:26.696 16315   938 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 27667 , isNotify : true , isForeground : true , fg list : []
+02-26 23:09:26.697  2440  4507 V NetworkPolicy: getFirewallRuleMobileData UID:10459 policy:0
+02-26 23:09:26.697  2440  2549 D PkgPredictorService-SecIpmManagerServiceImpl: onForegroundActivitiesChanged pid:27667 uid:10459
+02-26 23:09:26.697  2440  5440 V PkgPredictorService-SecIpmManagerServiceImpl: discard foreground app:com.lockin.app 0|false
+02-26 23:09:26.697  2440  2549 D SGM:GameManager: identifyForegroundApp. com.lockin.app, mCurrentUserId: 0, callerUserId: 0
+02-26 23:09:26.697  2440  2549 D SGM:SemGameManager: isForegroundGame(), ret=false
+02-26 23:09:26.697  2440  2549 D NetworkPolicy: already checked 10459
+02-26 23:09:26.697  2440  2549 D FingerprintProvider/default: onForegroundActivitiesChanged: pid = 27667, uid = 10459, foregroundActivities = true
+02-26 23:09:26.698 16315   938 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 27667 , isNotify : false , isForeground : true , fg list : []
+02-26 23:09:26.698  2440  2549 D SGM:GameManager: identifyForegroundApp. com.lockin.app, mCurrentUserId: 0, callerUserId: 0
+02-26 23:09:26.698  2440  2549 D SGM:SemGameManager: isForegroundGame(), ret=false
+02-26 23:09:26.698  2440  2549 D NetworkPolicy: already checked 10459
+02-26 23:09:26.698  2440  2549 D FingerprintProvider/default: onForegroundActivitiesChanged: pid = 27667, uid = 10459, foregroundActivities = true
+02-26 23:09:26.698 16315 16315 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - already invisible, skip hide : [4000003] - Disable on keyguard
+02-26 23:09:26.698  6200  6246 V OsAgent : broadcastSystemEvent - 7
+02-26 23:09:26.700 27667 27667 D CompatChangeReporter: Compat change id reported: 242716250; UID 10459; state: ENABLED
+02-26 23:09:26.827  2440  4544 D MdnieScenarioControlService:  packageName : com.lockin.app    className : com.lockin.app.MainActivity
+02-26 23:09:26.827  2440  4544 V MdnieScenarioControlService: setUIMode from UI function(3)
+02-26 23:09:26.840 27667 27667 D nativeloader: Configuring clns-9 for other apk /data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/base.apk. target_sdk_version=34, uses_libraries=libOpenCL.so, library_path=/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/lib/arm64:/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.lockin.app
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: Currently set values for:
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: com.lockin.app is not listed in per-application setting
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: ANGLE allowlist from config: 
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: com.lockin.app is not listed in ANGLE allowlist or settings, returning default
+02-26 23:09:26.844 27667 27667 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+02-26 23:09:26.854 27667 27667 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+02-26 23:09:26.868 27667 27667 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+02-26 23:09:26.868 27667 27667 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+02-26 23:09:26.873 27667 27730 D WM-ForceStopRunnable: The default process name was not specified.
+02-26 23:09:26.874 27667 27730 D WM-ForceStopRunnable: Performing cleanup operations.
+02-26 23:09:26.880 27667 27730 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+02-26 23:09:26.884 27667 27667 D LockinApp: Lockin application started
+02-26 23:09:26.884 27667 27667 D LockinApp: Background work scheduler initialized (placeholder)
+02-26 23:09:26.884  2440  7647 D WindowManager: App launched activity=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}, state=1
+02-26 23:09:26.884  2440  7647 V WindowManager: Computed rotation=ROTATION_0 (0) for display id=0 based on lastOrientation=SCREEN_ORIENTATION_USER (2) and oldRotation=ROTATION_0 (0), caller=com.android.server.wm.DisplayRotation.updateOrientation:79 com.android.server.wm.DisplayContent.updateOrientation:41 com.android.server.wm.DisplayContent.updateOrientationAndComputeConfig:48 com.android.server.wm.RootWindowContainer.ensureVisibilityAndConfig:7 com.android.server.wm.ActivityTaskSupervisor.realStartActivityLocked:182 com.android.server.wm.RootWindowContainer.attachApplication:92 
+02-26 23:09:26.884  2440  7647 D SGM:FgCheckThread: notifyAppCreated(), packageName: com.lockin.app, userId: 0, sendRet: true
+02-26 23:09:26.884  2440  4339 D SGM:FgCheckThread: onLooperPrepared(), msg: MSG_APP_CREATE, pkgName: com.lockin.app, userId: 0
+02-26 23:09:26.884  2440  7647 D SGM:FgCheckThread: TaskStackListener.onTaskFocusChanged(), taskId=11321, focused=true
+02-26 23:09:26.885  2440  7647 D SGM:FgCheckThread:   sendRunningComponentFocus(), pkgName: com.lockin.app, userId: 0
+02-26 23:09:26.885  2440  4339 D SGM:FgCheckThread: onLooperPrepared(), msg: MSG_TASK_FOCUSED, pkgName: com.lockin.app, userId: 0
+02-26 23:09:26.885  2440  4339 D SGM:FgCheckThread: handleTaskFocused().
+02-26 23:09:26.885  2440  4339 D SGM:FgCheckThread:   handleTaskFocused(), pkgName: com.lockin.app, userID:0
+02-26 23:09:26.885  2440  4339 D SGM:FgCheckThread: handleResume().
+02-26 23:09:26.885  2440  7647 D InputDispatcher: Focused application(0): ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}
+02-26 23:09:26.885  2440  4339 D SGM:SystemHelper: callReleaseBlock needReleaseBlock:false
+02-26 23:09:26.885  2440  4339 D SGM:FgCheckThread:   handleResume(). device is locked yet. ignore
+02-26 23:09:26.885  2440  7647 D ActivityTaskManager: scheduleTopResumedActivityChanged, onTop=true, r=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}, caller=com.android.server.wm.ActivityTaskSupervisor.scheduleTopResumedActivityStateIfNeeded:18 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:54 com.android.server.wm.TaskFragment.setResumedActivity:30 com.android.server.wm.ActivityRecord.setState:100 com.android.server.wm.ActivityTaskSupervisor.realStartActivityLocked:477 com.android.server.wm.RootWindowContainer.attachApplication:92 
+02-26 23:09:26.885  2440  7647 D BLASTSyncEngine: SyncGroup 22796: Set ready true, caller=com.android.server.wm.BLASTSyncEngine.setReady:32 com.android.server.wm.Transition.applyReady:54 com.android.server.wm.Transition.setReady:72 com.android.server.wm.TransitionController.setReady:6 com.android.server.wm.DisplayContent.executeAppTransition:4 com.android.server.wm.ActivityRecord.completeResumeLocked:115 
+02-26 23:09:26.885  2440  7647 D ActivityTaskManager: scheduleTopResumedActivityChanged, onTop=false, r=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}, caller=com.android.server.wm.ActivityTaskSupervisor.scheduleTopResumedActivityStateLossIfNeeded:19 com.android.server.wm.ActivityTaskSupervisor.updateTopResumedActivityIfNeeded:20 com.android.server.wm.TaskFragment.setResumedActivity:30 com.android.server.wm.ActivityRecord.setState:91 com.android.server.wm.TaskFragment.startPausing$1:209 com.android.server.wm.Task$$ExternalSyntheticLambda37.accept:150 
+02-26 23:09:26.885  4727  4727 I {OngoingActivityController}: onTaskFocusChanged but OA data is empty
+02-26 23:09:26.885  5227  5312 I HoneySpace.TopTaskSource: onTaskFocusChanged(): taskId = 11321
+02-26 23:09:26.885  2440  4556 D AS.MultiSoundManager: mForegroundUid = 10459
+02-26 23:09:26.885  2440  2555 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:26.885  2440  2555 D BLASTSyncEngine: SyncGroup 22796:  Unfinished container: ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321} mSyncState=2
+02-26 23:09:26.886  2440  7647 D GraphicsStatsService: requestRenderEngineFor(com.lockin.app)
+02-26 23:09:26.886 27667 27667 D ActivityThread: com.lockin.app will use render engine as VK
+02-26 23:09:26.886 27667 27667 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+02-26 23:09:26.886  2440  2553 V Configuration: Updating configuration, locales updated from [] to [en_US]
+02-26 23:09:26.886 27667 27732 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+02-26 23:09:26.887 27667 27732 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+02-26 23:09:26.887 27667 27732 D vulkan  : searching for layers in '/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/lib/arm64'
+02-26 23:09:26.887 27667 27732 D vulkan  : searching for layers in '/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/base.apk!/lib/arm64-v8a'
+02-26 23:09:26.887  2440  2553 V Configuration: Updating configuration, locales updated from [] to [en_US]
+02-26 23:09:26.888  2440  2553 D SGM:FgCheckThread: noteResumeComponent(), received pkgName: com.lockin.app, userId: 0
+02-26 23:09:26.888  7813  8072 I SDHMS:k : handleResumeComponent : put = com.lockin.app, userid = 0 instanceid =173931504
+02-26 23:09:26.888  2440  4339 D SGM:FgCheckThread: onLooperPrepared(), msg: MSG_APP_RESUME, pkgName: com.lockin.app, userid: 0
+02-26 23:09:26.888  2440  4579 I CocktailBarManagerServiceContainer: handleMessage: entry what = 5
+02-26 23:09:26.888  2440  4579 I CocktailBarManagerServiceImpl: noteResumeComponent : no active host
+02-26 23:09:26.888  2440  4339 D SGM:FgCheckThread: handleResume().
+02-26 23:09:26.888  2440  4339 D SGM:SystemHelper: callReleaseBlock needReleaseBlock:false
+02-26 23:09:26.888  2440  4339 D SGM:FgCheckThread:   handleResume(). device is locked yet. ignore
+02-26 23:09:26.888  2440  4589 D BackgroundInstallControlService: Package event received: 0
+02-26 23:09:26.889  2440  4589 D BackgroundInstallControlService: Package event received: 0
+02-26 23:09:26.889  2440  4589 D BackgroundInstallControlService: Package event received: 0
+02-26 23:09:26.889  6200  6246 V OsAgent : broadcastSystemEvent - 7
+02-26 23:09:26.891 27667 27730 D WM-ForceStopRunnable: Application was force-stopped, rescheduling.
+02-26 23:09:26.892 27667 27732 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+02-26 23:09:26.892 27667 27732 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+02-26 23:09:26.892 27667 27732 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+02-26 23:09:26.894 27667 27732 D qdgralloc: Fetching IMapper5 from QtiMapper5
+02-26 23:09:26.895 27667 27667 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+02-26 23:09:26.896 27667 27667 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@6601a1e
+02-26 23:09:26.900 27667 27732 I SnapAlloc: Graphics lib is available
+02-26 23:09:26.903 27667 27739 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+02-26 23:09:26.905 27667 27732 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+02-26 23:09:26.905 27667 27667 D ViewRootImpl: desktopMode is false
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: QUALCOMM build          : e4a2ccdb56, Icac6f3510c
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Build Date              : 07/21/25
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Shader Compiler Version : E031.47.18.36
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Local Branch            : 
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Remote Branch           : NONE
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Driver Version          : 0800.40.1
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: PFP                     : 0x01500077
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: ME                      : 0x01500014
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Application Name    : android framework
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Application Version : 0x00000000
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Engine Name         : android framework
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Engine Version      : 0x00000000
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Api Version         : 0x00401000
+02-26 23:09:26.907 27667 27667 I ViewRootImpl: dVRR is disabled
+02-26 23:09:26.907 27667 27667 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1440x3120 mLargest wxh=0x0
+02-26 23:09:26.908 27667 27667 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1440x3120)
+02-26 23:09:26.913 27667 27732 D HWUI    : setMaxSurfaceArea requested wxh=(1440,3120) requestedSurfaceArea(4492800) mMaxSurfaceArea(2073600)
+02-26 23:09:26.913 27667 27732 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+02-26 23:09:26.916  1940  1940 I SS_POWER_HINT_SESSION: SS_ADPF 27667-10459-7970 PowerHintSession createHintSession : , 27742, 27743, 27667, 27732 : 16666667
+02-26 23:09:26.917  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224265300  [1940 / 113529]    HINT :      list : [TID_LOW_LATENCY / 1] [TID / 27742] [TID / 27743] [TID / 27667] [TID / 27732] 
+02-26 23:09:26.918  2440  4244 D InputTransport: Input channel constructed: '94c82d6', fd=1535
+02-26 23:09:26.918  2440  4244 D InputTransport: Input channel constructed: '94c82d6', fd=1567
+02-26 23:09:26.918  2440  4244 D InputTransport: Input channel constructed: '94c82d6', fd=1568
+02-26 23:09:26.918  2440  4244 D InputTransport: Input channel destroyed: '94c82d6', fd=1567
+02-26 23:09:26.918  2440  4244 D WindowManager: prepareSync <SYNC_STATE_WAITING_FOR_DRAW>, mPrepareSyncSeqId=0, win=Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity}
+02-26 23:09:26.919 27667 27742 E perf_hint: Session ID too large, must fit 32-bit integer
+02-26 23:09:26.919  2074  2469 I SurfaceFlinger: id=349970 createSurf, flag=84004, 94c82d6 com.lockin.app/com.lockin.app.MainActivity#349970
+02-26 23:09:26.919  2440  4244 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+02-26 23:09:26.919  2440  4244 D RestrictionPolicy: isScreenCaptureEnabled : ret=true userId=0
+02-26 23:09:26.919  2440  4244 D InputTransport: Input channel destroyed: '94c82d6', fd=1568
+02-26 23:09:26.920 27667 27667 D InputTransport: Input channel constructed: '94c82d6', fd=122
+02-26 23:09:26.920 27667 27667 I InsetsController: onStateChanged: host=com.lockin.app/com.lockin.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3120), mDisplayCutout=DisplayCutout{insets=Rect(0, 113 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(685, 0 - 755, 113), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3120 physicalDisplayWidth=1440 physicalDisplayHeight=3120 density={3.75} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=53, center=Point(53, 53)}, RoundedCorner{position=TopRight, radius=53, center=Point(1387, 53)}, RoundedCorner{position=BottomRight, radius=53, center=Point(1387, 3067)}, RoundedCorner{position=BottomLeft, radius=53, center=Point(53, 3067)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3120), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1286, 0 - 1440, 113) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {b53d0001 mType=navigationBars mFrame=[0,2952][1440,3120] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {b53d0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {b53d0005 mType=mandatorySystemGestures mFrame=[0,2952][1440,3120] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {b53d0006 mType=tappableElement mFrame=[0,2952][1440,3120] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {b53d0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {cf690000 mType=statusBars mFrame=[0,0][1440,113] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {cf690005 mType=mandatorySystemGestures mFrame=[0,0][1440,155] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {cf690006 mType=tappableElement mFrame=[0,0][1440,113] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,113] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+02-26 23:09:26.920 27667 27667 I VRI[MainActivity]@93619ef: synced displayState. AttachInfo displayState=1
+02-26 23:09:26.921 27667 27667 I VRI[MainActivity]@93619ef: setView = com.android.internal.policy.DecorView@774660b IsHRR=false mFlingFrameRateChange=0 TM=true
+02-26 23:09:26.921 27667 27667 I IDS_TAG : Starting IDS observe window
+02-26 23:09:26.921 27667 27667 I IDS_TAG : Getting Shared Preference for com.lockin.app.LockinApplication@8cab58 uid = 10459
+02-26 23:09:26.922 27667 27667 I IDS_TAG : App com.lockin.app.LockinApplication@8cab58 has not finished training
+02-26 23:09:26.922 27667 27667 I IDS_TAG : Closing IDS observe window
+02-26 23:09:26.922 27667 27667 I IDS_TAG : Getting Shared Preference for com.lockin.app.LockinApplication@8cab58 uid = 10459
+02-26 23:09:26.922  2440  2553 D SGM:FgCheckThread: notePauseComponent(), received pkgName: com.lockin.app, userId: 0
+02-26 23:09:26.923 27667 27667 I IDS_TAG : IDS count updated to 2 for com.lockin.app.LockinApplication@8cab58
+02-26 23:09:26.923  2440  4589 D BackgroundInstallControlService: Package event received: 0
+02-26 23:09:26.923  2440  4579 I CocktailBarManagerServiceContainer: handleMessage: entry what = 6
+02-26 23:09:26.923  2440  4579 I CocktailBarManagerServiceImpl: notePauseComponent : no active host
+02-26 23:09:26.927  2440  4544 D DisplayAiqeManager: getContentMode : start
+02-26 23:09:26.927  2440  4544 D DisplayAiqeManagerService: getContentMode : start
+02-26 23:09:26.927  2440  4544 D DisplayAiqeAidl: getContentMode : UI
+02-26 23:09:26.927  2440  4544 D DisplayAiqeManagerService: getContentMode : mode - UI
+02-26 23:09:26.927  2440  4544 D DisplayAiqeManager: getContentMode : mode - UI
+02-26 23:09:26.927  2440  4544 V MdnieScenarioControlService: mAclOffEnabled : false
+02-26 23:09:26.939  2074  2074 I SurfaceFlinger: [94c82d6 com.lockin.app/com.lockin.app.MainActivity#349970] attach to parent LayerHierarchy{RequestedLayerState{ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}#349969 parentId=349968} 1 children}
+02-26 23:09:26.977  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224380771  [1940 / 113530]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TIMEOUT / 350] [TID / 27742] [TID / 27743] [TID / 27667] [TID / 27732] 
+02-26 23:09:26.978  2440  4244 D CoreBackPreview: Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2e3dc4f, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+02-26 23:09:26.985 10339 10339 I BSS_SysUiManager: handleMessage = 9, 0, 0
+02-26 23:09:27.050 27667 27672 I com.lockin.app: Compiler allocated 5101KB to compile void android.view.ViewRootImpl.performTraversals()
+02-26 23:09:27.058  2440  4244 I WindowManager: Relayout Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity}: viewVisibility=0 req=1440x3120 ty=1 d0
+02-26 23:09:27.058  2074  2469 I SurfaceFlinger: id=349971 createSurf, flag=44004, com.lockin.app/com.lockin.app.MainActivity$_27667#349971
+02-26 23:09:27.058  2440  4244 D WindowManager: makeSurface duration=0 name=com.lockin.app/com.lockin.app.MainActivity$_27667
+02-26 23:09:27.058  2440  4244 D SurfaceComposerClient: setCornerRadius ## 94c82d6 com.lockin.app/com.lockin.app.MainActivity#349970 cornerRadius=0.000000
+02-26 23:09:27.058  2440  4244 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:27.058  2440  4244 D BLASTSyncEngine: SyncGroup 22796:  Unfinished container: ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321} mSyncState=2
+02-26 23:09:27.059  2440  4244 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:27.059  2440  4244 V WindowManager: SyncGroup 22796: Finished!
+02-26 23:09:27.059  2440  4244 D ChangeTransitionController: onTransactionReady: TransitionRecord{1c66f6d id=22796 type=OPEN flags=0x0 c=[
+02-26 23:09:27.059  2440  4244 D ChangeTransitionController:    ChangeInfo{e3ee71c container=Display{#0 state=OFF size=1440x3120 ROTATION_0} flags=0x0}
+02-26 23:09:27.059  2440  4244 D ChangeTransitionController:    ChangeInfo{6db1f25 container=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321} flags=0x0}
+02-26 23:09:27.059  2440  4244 D ChangeTransitionController:    ChangeInfo{a67b8fa container=DefaultTaskDisplayArea_d0@152362882 flags=0x0}
+02-26 23:09:27.059  2440  4244 D ChangeTransitionController:    ChangeInfo{3e21eab container=Task{a415c33 #11321 type=standard A=10459:com.lockin.app} flags=0x0}
+02-26 23:09:27.059  2440  4244 D ChangeTransitionController: ]
+02-26 23:09:27.059  2440  4244 D ChangeTransitionController: }
+02-26 23:09:27.059  2440  4244 V WindowManager: Start calculating TransitionInfo based on participants: {ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321}, Task{a415c33 #11321 type=standard A=10459:com.lockin.app}}
+02-26 23:09:27.059  2440  4244 V WindowManager:   Final targets: []
+02-26 23:09:27.059  2440  4244 V WindowManager: Calling onTransitionReady: {id=22796 t=OPEN f=0x40 trk=0 r=[] c=[]}
+02-26 23:09:27.059  2440  4244 D PowerManagerService: [api] setPowerBoost(L) boost:0, durationMs:0, caller (uid: 1000 pid: 2440) <- m() in com.android.server.display.DisplayManagerService$BinderService$$ExternalSyntheticOutline0:1
+02-26 23:09:27.059  4727  5189 V WindowManagerShell: onTransitionReady(transaction=10479721345601)
+02-26 23:09:27.059  4727  4888 V WindowManagerShell: onTransitionReady (#22796) android.os.BinderProxy@46d4523: {id=22796 t=OPEN f=0x40 trk=0 r=[] c=[]}
+02-26 23:09:27.059  4727  4888 V ShellDesktopMode: DesktopModeLogger: taskInfo map after processing changes 0
+02-26 23:09:27.059  4727  4888 V WindowManagerShell: No transition roots in (#22796) android.os.BinderProxy@46d4523@0 so abort
+02-26 23:09:27.059  2440  4244 I WindowManager: Relayout hash=94c82d6, pid=27667, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x1030317
+02-26 23:09:27.059  2440  4244 I WindowManager:   fl=81810100
+02-26 23:09:27.059  2440  4244 I WindowManager:   pfl=100080c0
+02-26 23:09:27.059  2440  4244 I WindowManager:   bhv=1
+02-26 23:09:27.059  2440  4244 I WindowManager:   fitSides=0
+02-26 23:09:27.059  2440  4244 I WindowManager:   frameRateBoostOnTouch=true
+02-26 23:09:27.059  2440  4244 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+02-26 23:09:27.059  2440  2548 V WindowManager: Sent Transition (#22796) createdAt=02-26 23:09:26.624 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=11321 effectiveUid=10459 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.lockin.app/.MainActivity } baseActivity=ComponentInfo{com.lockin.app/com.lockin.app.MainActivity} topActivity=ComponentInfo{com.lockin.app/com.lockin.app.MainActivity} origActivity=null realActivity=ComponentInfo{com.lockin.app/com.lockin.app.MainActivity} numActivities=1 lastActiveTime=2095714077 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 maxWidth=-1 maxHeight=-1 defaultMinSize=220 desktopDefaultMinSize=304 token=WCT{RemoteToken{c3f0fdc Task{a415c33 #11321 type=standard A=10459:com.lockin.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 113 - 0, 0) topActivityInfo=ActivityInfo{dd6f8e5 com.lockin.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=true locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(108, 752 - 1332, 2312) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 113 - 1440, 2952) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive} topActivityBounds=null topActivityInDisplayCompat=false singleTapFromLetterbox=false} topActivityMainWindowFrame=null originallySupportedMultiWindow=true hasWallpaper=false rootAffinity=10459:com.lockin.app isTopTaskInStage=false CoverLauncherWidgetTask=false LaunchedFromAppsCoverLauncherTask=false LaunchedFromMultistarCoverLauncherTask=false isAllowedSeamlessRotation=false isTopTransparentActivity=false isAliasManaged=false hasConfigChanged=false snappingGuideBounds=null isAiKeyRemoveAppTask=false lastDesktopWindowingBounds=null lastExternalDesktopWindowingBounds=null safeCutoutInsets=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 22796 }
+02-26 23:09:27.059  2440  2548 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-26 23:09:27.059  2440  2548 V WindowManager:     info={id=22796 t=OPEN f=0x40 trk=0 r=[] c=[]}
+02-26 23:09:27.059  4727  4888 I SurfaceControlRegistry: apply, t=StartTransaction_SyncId<22796>, caller=android.view.SurfaceControl$Transaction.apply:3459 android.view.SurfaceControl$Transaction.apply:3447 android.view.SurfaceControl$Transaction.apply:3397 com.android.wm.shell.transition.Transitions.processReadyQueue:196 com.android.wm.shell.transition.Transitions.onAbort:85 com.android.wm.shell.transition.Transitions.dispatchReady:326 
+02-26 23:09:27.060  6200  6246 V OsAgent : broadcastSystemEvent - 7
+02-26 23:09:27.060  4727  4888 V WindowManagerShell: Transition animation finished (aborted=true), notifying core (#22796) android.os.BinderProxy@46d4523@0
+02-26 23:09:27.060 27667 27667 E com.lockin.app: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+02-26 23:09:27.060 27667 27667 I BufferQueueProducer: [](id:6c1300000000,api:0,p:-512694320,c:27667) setDequeueTimeout:2077252342
+02-26 23:09:27.060  2483  2711 I CameraService: onUidStateChanged: uid=10049, procState is changed. (5 -> 1)
+02-26 23:09:27.060 27667 27667 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@93619ef mNativeObject= 0xb400007ab17484b0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+02-26 23:09:27.060 27667 27667 I BLASTBufferQueue_Java: update, w= 1440 h= 3120 mName = VRI[MainActivity]@93619ef mNativeObject= 0xb400007ab17484b0 sc.mNativeObject= 0xb400007a216f9d50 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+02-26 23:09:27.060  2440  4584 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+02-26 23:09:27.060  4727  4888 I SurfaceControlRegistry: apply, t=FinishTransaction_SyncId<22796>, caller=android.view.SurfaceControl$Transaction.apply:3459 android.view.SurfaceControl$Transaction.apply:3447 android.view.SurfaceControl$Transaction.apply:3397 com.android.wm.shell.transition.Transitions.onFinish:315 com.android.wm.shell.transition.Transitions.processReadyQueue:201 com.android.wm.shell.transition.Transitions.onAbort:85 
+02-26 23:09:27.060  2483  2711 W IPCThreadState: Sending oneway calls to frozen process.
+02-26 23:09:27.060 27667 27667 I VRI[MainActivity]@93619ef: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)0 dur=2 res=0x3 s={true 0xb4000079f1719ff0} ch=true seqId=0
+02-26 23:09:27.060  2483  2711 W IPCThreadState: Sending oneway calls to frozen process.
+02-26 23:09:27.061 27667 27667 D VRI[MainActivity]@93619ef: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f1719ff0} hwInitialized=true
+02-26 23:09:27.061  2440  4244 V WindowManager: Finish Transition: TransitionRecord{1c66f6d id=22796 type=OPEN flags=0x40 c=[
+02-26 23:09:27.061  2440  4244 V WindowManager:    ChangeInfo{e3ee71c container=Display{#0 state=OFF size=1440x3120 ROTATION_0} flags=0x0}
+02-26 23:09:27.061  2440  4244 V WindowManager:    ChangeInfo{6db1f25 container=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321} flags=0x0}
+02-26 23:09:27.061  2440  4244 V WindowManager:    ChangeInfo{a67b8fa container=DefaultTaskDisplayArea_d0@152362882 flags=0x0}
+02-26 23:09:27.061  2440  4244 V WindowManager:    ChangeInfo{3e21eab container=Task{a415c33 #11321 type=standard A=10459:com.lockin.app} flags=0x0}
+02-26 23:09:27.061  2440  4244 V WindowManager: ]
+02-26 23:09:27.061  2440  4244 V WindowManager: }, caller=com.android.server.wm.WindowOrganizerController.finishTransitionInner:31 com.android.server.wm.WindowOrganizerController.finishAllTransitions:60 android.window.IWindowOrganizerController$Stub.onTransact:283 
+02-26 23:09:27.061  2440  2548 V WindowManager: Finish Transition (#22796): created at 02-26 23:09:26.624 collect-started=0.26ms request-sent=3.304ms started=8.69ms ready=260.795ms sent=434.725ms finished=436.897ms
+02-26 23:09:27.061  2440  4244 D ChangeTransitionController: onTransitionFinished: TransitionRecord{1c66f6d id=22796 type=OPEN flags=0x40 c=[
+02-26 23:09:27.061  2440  4244 D ChangeTransitionController:    ChangeInfo{e3ee71c container=Display{#0 state=OFF size=1440x3120 ROTATION_0} flags=0x0}
+02-26 23:09:27.061  2440  4244 D ChangeTransitionController:    ChangeInfo{6db1f25 container=ActivityRecord{46061474 u0 com.lockin.app/.MainActivity t11321} flags=0x0}
+02-26 23:09:27.061  2440  4244 D ChangeTransitionController:    ChangeInfo{a67b8fa container=DefaultTaskDisplayArea_d0@152362882 flags=0x0}
+02-26 23:09:27.061  2440  4244 D ChangeTransitionController:    ChangeInfo{3e21eab container=Task{a415c33 #11321 type=standard A=10459:com.lockin.app} flags=0x0}
+02-26 23:09:27.061  2440  4244 D ChangeTransitionController: ]
+02-26 23:09:27.061  2440  4244 D ChangeTransitionController: }
+02-26 23:09:27.061  4727  4888 V WindowManagerShell: Track 0 became idle
+02-26 23:09:27.061  4727  4888 V WindowManagerShell: All active transition animations finished
+02-26 23:09:27.061  6200  6246 V OsAgent : broadcastSystemEvent - 7
+02-26 23:09:27.062  2483  2711 I CameraService: onUidStateChanged: uid=10049, procState is changed. (1 -> 5)
+02-26 23:09:27.062  2440  4584 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+02-26 23:09:27.062  2483  2711 W IPCThreadState: Sending oneway calls to frozen process.
+02-26 23:09:27.062  2483  2711 W IPCThreadState: Sending oneway calls to frozen process.
+02-26 23:09:27.063  2440  2553 I ActivityManager: Changes in 10459 2 to 12, 255 to 128
+02-26 23:09:27.063  6200  6246 V OsAgent : broadcastSystemEvent - 7
+02-26 23:09:27.063  2440  2548 D HintManagerService: Sent cleanup message for uid 10459
+02-26 23:09:27.064  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224265300  [1940 / 113529]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 27742] [TID / 27743] [TID / 27667] [TID / 27732] 
+02-26 23:09:27.064  1936  2076 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 224265300
+02-26 23:09:27.064  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224380771  [1940 / 113530]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TIMEOUT / 50] [TID / 27742] [TID / 27743] [TID / 27667] [TID / 27732] 
+02-26 23:09:27.073  2074  2074 I SurfaceFlinger: RequestedLayer [94c82d6 com.lockin.app/com.lockin.app.MainActivity#349970] hidden!! flag  from(1) --> to(0)
+02-26 23:09:27.073  2074  2074 I SurfaceFlinger: [Display 0 name="Built-in Screen"#49] setFrameRateCategory: Default
+02-26 23:09:27.073  2074  2074 I SurfaceFlinger: [com.lockin.app/com.lockin.app.MainActivity$_27667#349971] attach to parent LayerHierarchy{RequestedLayerState{94c82d6 com.lockin.app/com.lockin.app.MainActivity#349970 parentId=349969} 1 children}
+02-26 23:09:27.079  2440  2553 I DisplayDeviceRepository: Display device changed render timings: "Built-in Screen", renderFrameRate=60.000004, presentationDeadlineNanos=9333333, appVsyncOffsetNanos=16666666, frameRateOverrides=[]
+02-26 23:09:27.079  2440  2555 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:27.079  4727  4727 D DisplayLifecycle: updateDisplay id = 0
+02-26 23:09:27.080  4727  4911 D StackScroller: onDisplayChanged for predraw skip to 1
+02-26 23:09:27.080  4727  4727 I AODTriggers: onAODEventDispatched = 4 / eventData = aod.e0@fc5107f
+02-26 23:09:27.080  4727  4727 I AOD_LIVE_CLOCK@LiveClockController: updateDisplayState: DISPLAY_STATE_OFF
+02-26 23:09:27.080  2440  4244 D WifiDisplayAdapter: isFitToActiveDisplayLocked : false
+02-26 23:09:27.083 27667 27667 D VRI[MainActivity]@93619ef: reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+02-26 23:09:27.083 27667 27667 D VRI[MainActivity]@93619ef: Setup new sync=wmsSync-VRI[MainActivity]@93619ef#0
+02-26 23:09:27.083 27667 27667 I VRI[MainActivity]@93619ef: Creating new active sync group VRI[MainActivity]@93619ef#1
+02-26 23:09:27.084 27667 27667 D VRI[MainActivity]@93619ef: registerCallbacksForSync syncBuffer=false
+02-26 23:09:27.099 27667 27743 D VRI[MainActivity]@93619ef: Received frameDrawingCallback syncResult=0 frameNum=1.
+02-26 23:09:27.099 27667 27743 I VRI[MainActivity]@93619ef: mWNT: t=0xb400007a71728f10 mBlastBufferQueue=0xb400007ab17484b0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+02-26 23:09:27.099 27667 27743 I VRI[MainActivity]@93619ef: Setting up sync and frameCommitCallback
+02-26 23:09:27.099 27667 27732 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+02-26 23:09:27.114  1936  2076 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 3029512
+02-26 23:09:27.114  1936 27750 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 224380771
+02-26 23:09:27.122 27667 27732 I BLASTBufferQueue: [VRI[MainActivity]@93619ef#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+02-26 23:09:27.122 27667 27732 I SurfaceComposerClient: apply transaction with the first frame. layerId: 349971, bufferData(ID: 118828860178435, frameNumber: 1)
+02-26 23:09:27.122 27667 27732 I VRI[MainActivity]@93619ef: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+02-26 23:09:27.122  2074  2469 I SurfaceFlinger: [com.lockin.app/com.lockin.app.MainActivity$_27667#349971] setTransactionState with the first frame. bufferData(ID: 118828860178435, frameNumber: 1)
+02-26 23:09:27.123 27667 27732 D HWUI    : CFMS:: SetUp Pid : 27667    Tid : 27732
+02-26 23:09:27.123 27667 27667 D VRI[MainActivity]@93619ef: reportDrawFinished seqId=0
+02-26 23:09:27.123  2440  4244 D WindowManager: finishDrawingWindow: Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity} mDrawState=DRAW_PENDING seqId=0
+02-26 23:09:27.123  2440  2555 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:27.124 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.124  2440  2548 D [secipm]: mSecIpmManager report to nap
+02-26 23:09:27.124  2440  2548 I PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP uid:10459 com.lockin.app/com.lockin.app.MainActivity thisTime:501
+02-26 23:09:27.125  2440  2548 D PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP: mHeavyLaunchCounter is false
+02-26 23:09:27.125  2440  5440 D PkgPredictorService-SecIpmManagerServiceImpl: ACTION_FOREGROUND_FINISH_EVENT sCurForegroundApp :com.lockin.app
+02-26 23:09:27.125  5227 27084 I HoneySpace.RecentTasks: onRunningTaskAppeared
+02-26 23:09:27.125  5227 27084 I HoneySpace.RecentTasks: onRecentTasksChanged
+02-26 23:09:27.125 27667 27732 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+02-26 23:09:27.125  2440  2548 I ActivityTaskManager: Displayed com.lockin.app/.MainActivity for user 0: +501ms
+02-26 23:09:27.125  2440  2548 I Pageboost: Launch time gathered : pid 27667 com.lockin.app 501
+02-26 23:09:27.125  5742  5742 E pageboostd: Received HALT command code 2
+02-26 23:09:27.185 27667 27667 D VRI[MainActivity]@93619ef: Not drawing due to screen off
+02-26 23:09:27.202 27667 27667 I VRI[MainActivity]@93619ef: stopped(true) old = false
+02-26 23:09:27.202 27667 27667 D VRI[MainActivity]@93619ef: WindowStopped on com.lockin.app/com.lockin.app.MainActivity set to true
+02-26 23:09:27.202 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.207 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.208  2440  4244 I WindowManager: Relayout Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity}: viewVisibility=4 req=1440x3120 ty=1 d0
+02-26 23:09:27.208  2440  4244 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:27.208  2440  4244 I WindowManager: Relayout hash=94c82d6, pid=27667, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x1030317
+02-26 23:09:27.208  2440  4244 I WindowManager:   fl=81810100
+02-26 23:09:27.208  2440  4244 I WindowManager:   pfl=100080c0
+02-26 23:09:27.208  2440  4244 I WindowManager:   bhv=1
+02-26 23:09:27.208  2440  4244 I WindowManager:   fitSides=0
+02-26 23:09:27.208  2440  4244 I WindowManager:   frameRateBoostOnTouch=true
+02-26 23:09:27.208  2440  4244 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+02-26 23:09:27.209 27667 27667 I VRI[MainActivity]@93619ef: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)4 dur=1 res=0x2 s={false 0x0} ch=false seqId=0
+02-26 23:09:27.209 27667 27667 D VRI[MainActivity]@93619ef: Not drawing due to not visible. Reason=View.INVISIBLE
+02-26 23:09:27.211  2440  4244 V WindowManager: Setting visibility of Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity}: false, caller=com.android.server.wm.WindowContainer.sendAppVisibilityToClients:19 com.android.server.wm.WindowToken.setClientVisible:48 com.android.server.wm.ActivityRecord.activityStopped:189 com.android.server.wm.ActivityClientController.activityStopped:97 android.app.IActivityClientController$Stub.onTransact:740 
+02-26 23:09:27.211  2440  4244 E WindowManager: win=Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity} destroySurfaces: appStopped=true cleanupOnResume=false win.mWindowRemovalAllowed=false win.mRemoveOnExit=false win.mViewVisibility=4 caller=com.android.server.wm.ActivityRecord.destroySurfaces:25 com.android.server.wm.ActivityRecord.activityStopped:192 com.android.server.wm.ActivityClientController.activityStopped:97 android.app.IActivityClientController$Stub.onTransact:740 com.android.server.wm.ActivityClientController.onTransact:1 android.os.Binder.execTransactInternal:1462 android.os.Binder.execTransact:1401 
+02-26 23:09:27.211  2440  2553 D SGM:FgCheckThread: getForegroundApp(), foregroundPkgName=com.lockin.app
+02-26 23:09:27.211  2440  4589 D BackgroundInstallControlService: Package event received: 0
+02-26 23:09:27.211  2440  2553 D SGM:FgCheckThread: pkgName: com.lockin.app is not in foreground
+02-26 23:09:27.211 27667 27667 I VRI[MainActivity]@93619ef: handleAppVisibility mAppVisible = true visible = false
+02-26 23:09:27.222  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{com.lockin.app/com.lockin.app.MainActivity$_27667#349971} no children}] reparent to OffscreenRoot
+02-26 23:09:27.222  2074  2074 I SurfaceFlinger: [LayerHierarchy{RequestedLayerState{com.lockin.app/com.lockin.app.MainActivity$_27667#349971} no children}] RelativeParent to null
+02-26 23:09:27.223  2074  2074 I SurfaceFlinger: id=349971 Removed com.lockin.app/com.lockin.app.MainActivity$_27667#349971 (182)
+02-26 23:09:27.239  2074  2074 I SurfaceFlinger: destroyed com.lockin.app/com.lockin.app.MainActivity$_27667#349971 form LifecycleManager
+02-26 23:09:27.239  2074  2074 I SurfaceFlinger: id=349971 onLayerDestroyed from LayerHierarchyBuilder(RequestedLayerState{com.lockin.app/com.lockin.app.MainActivity$_27667#349971 !handle})
+02-26 23:09:27.239  2074  2074 I Layer   : id=349971 Destroyed com.lockin.app/com.lockin.app.MainActivity$_27667#349971
+02-26 23:09:27.324  1936 27662 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 4535137
+02-26 23:09:27.415 17413 17769 I FontLog : (REDACTED) Received query %s, URI %s
+02-26 23:09:27.415 17413 17769 I FontLog : (REDACTED) Query [%s] resolved to %s
+02-26 23:09:27.416 17413 17769 I FontLog : (REDACTED) Fetch %s end status %s
+02-26 23:09:27.419 17413 17769 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+02-26 23:09:27.422 17413 17769 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+02-26 23:09:27.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143767
+02-26 23:09:27.522  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:27.522  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:27.522  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:27.522  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:27.522  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:27.522  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:27.522  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:27.522  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:27.565 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.575  2440  5570 I WindowManager: Relayout Window{94c82d6 u0 com.lockin.app/com.lockin.app.MainActivity}: viewVisibility=8 req=1440x3120 ty=1 d0
+02-26 23:09:27.577  2440  5570 W PhoneWindowManager: lockNow pending, ignore updating lockscreen timeout
+02-26 23:09:27.578  2440  5570 I WindowManager: Relayout hash=94c82d6, pid=27667, syncId=-1: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} layoutInDisplayCutoutMode=always ty=BASE_APPLICATION wanim=0x1030317
+02-26 23:09:27.578  2440  5570 I WindowManager:   fl=81810100
+02-26 23:09:27.578  2440  5570 I WindowManager:   pfl=100080c0
+02-26 23:09:27.578  2440  5570 I WindowManager:   bhv=1
+02-26 23:09:27.578  2440  5570 I WindowManager:   fitSides=0
+02-26 23:09:27.578  2440  5570 I WindowManager:   frameRateBoostOnTouch=true
+02-26 23:09:27.578  2440  5570 I WindowManager:   dvrrWindowFrameRateHint=true naviIconColor=0}
+02-26 23:09:27.579 27667 27667 I VRI[MainActivity]@93619ef: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)8 dur=4 res=0x0 s={false 0x0} ch=false seqId=0
+02-26 23:09:27.672  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 4:3:0:1190784:3513600:1017600:764928:2400000:556800:222:222:222
+02-26 23:09:27.690  1375  1375 D io_stats: !@   8,0 r 158239741 3723066336 w 86978300 1360856728 d 9062469 1339252572 f 2628896 7421138 iot 19169060 0 th 0 0 0 pt 0 inp 0 0 1270529.754
+02-26 23:09:27.923  7813  8089 I SDHMS:k : no app is Resumed!!! mResumedPackages.size = 0
+02-26 23:09:28.068  2440  4300 D HintManagerService: Starts cleaning for 10459
+02-26 23:09:28.124  1936 27663 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 30713227
+02-26 23:09:28.153  2440  5570 D NetdEventListenerService: CSC Feature value: true
+02-26 23:09:28.211  1967  2506 I thermal_core: pivot(AP) : 277, skin : 278
+02-26 23:09:28.243  1929  1929 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:28.243  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:28.243  1929  1929 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:09:28.244  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:28.244  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:28.244  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:09:28.245  7813  8415 I SDHMS:x : SIOP:: AP:277 BAT:264 USB:254 CHG:271 PA:283 WIFI:270 CF:269 BLK:0 SUBBAT:0 LRPTHM:265 SKIN:278 SKINF:278 SKINB:277 LRP:278 LRF:278 LRB:277 APT:278 APR:277 RCV:272 SPK:260 CHGF:276 CHGR:276 MEMF:278 MEMR:277 WIFIF:277 WIFIR:276 FCAM:254 UPSPK:267 DNSPK:255 VAP:276 VWIFI:273 AMB2:226 HIGH:0 AVGCUR:1 POWER:4
+02-26 23:09:28.247  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:09:28.247  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:09:28.249  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:28.249  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:28.249  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:09:28.249  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:28.249  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:09:28.249  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:09:28.249  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:28.249  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:28.249  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:28.250  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:28.250  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:28.251  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:28.251  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:28.251  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:09:28.251  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:28.251  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:09:28.251  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:09:28.251  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:28.251  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:28.252  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:28.254  7813  7930 I M0      : limitCPUFreq:: freq = -1
+02-26 23:09:28.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143768
+02-26 23:09:28.522  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:28.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:28.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:28.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:28.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:28.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:28.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:28.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:28.630  7813  7930 I M0      : limitCPUFreq:: freq = 3513600
+02-26 23:09:28.630  7813  7930 I SemDvfsHyPerManager: acquire hyper - SIOP_ARM_MAX/7813@3, type = 301993986
+02-26 23:09:28.631  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 30548839  [7813 / 3]    HINT :      list : [CPUMaxFreq / 3513600] 
+02-26 23:09:28.745  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074898] accel_sample [-0.145,  0.070,  9.772] 2095716137687459
+02-26 23:09:29.015  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:09:29.015  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:09:29.016  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:09:29.505  2440 16991 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+02-26 23:09:29.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143769
+02-26 23:09:29.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:29.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:29.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:29.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:29.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:29.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:29.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:29.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:29.576  1940  1940 I SS_POWER_HINT_SESSION: SS_ADPF 27667-10459-7970 destroy
+02-26 23:09:29.577  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224265300  [1940 / 113529]    HINT :      list : [TID_LOW_LATENCY / 0] [TID / 27742] [TID / 27743] [TID / 27667] [TID / 27732] 
+02-26 23:09:29.577  1936  2076 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 224265300
+02-26 23:09:29.577  1936  2076 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 224380771  [1940 / 113530]    HINT :      list : [UCLAMP_MIN_BOOST / 0] [TIMEOUT / 0] [TID / 27742] [TID / 27743] [TID / 27667] [TID / 27732] 
+02-26 23:09:29.578  1936  2076 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 224380771
+02-26 23:09:29.690  1375  1375 D io_stats: !@   8,0 r 158239741 3723066336 w 86978310 1360856892 d 9062469 1339252572 f 2628896 7421139 iot 19169068 0 th 0 0 0 pt 0 inp 0 0 1270531.754
+02-26 23:09:29.690  1375  1375 D io_stats: !@ Read_top(KB): kworker/u17:0:/(25897) 260 martsuggestions:high(7585) 80
+02-26 23:09:29.691  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:2:/(21545) 156 system_server:normal(2440) 8 com.lockin.app:top(27667) 8
+02-26 23:09:30.141  2440  4731 I Pageboost: Launcher App Execution
+02-26 23:09:30.142  2440  4731 E Pageboost: ioinfo read failed
+02-26 23:09:30.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143770
+02-26 23:09:30.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:30.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:30.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:30.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:30.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:30.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:30.524  2051  2083 E HeatmapThread: !@Entered the read from path function
+02-26 23:09:30.524  2051  2083 E HeatmapThread: !@Read Extended_heatmap from efs is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58336 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20361 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17342 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16347 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14801 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6477 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5387 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3585 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 361 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 363 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 263 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 173 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137 0 0 0
+02-26 23:09:30.525  2051  2083 E HeatmapThread: !@Write Extended Heatmap to efs is: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 58337 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20361 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17342 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16347 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14801 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6477 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5387 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3585 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 361 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 363 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 263 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 173 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 137 0 0 0 
+02-26 23:09:30.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:30.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:30.630  1936 27666 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 30728906
+02-26 23:09:30.796  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074932] accel_sample [-0.147,  0.067,  9.773] 2095718188656417
+02-26 23:09:31.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143771
+02-26 23:09:31.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:31.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:31.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:31.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:31.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:31.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:31.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:31.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:31.691  1375  1375 D io_stats: !@   8,0 r 158239741 3723066336 w 86978318 1360856916 d 9062469 1339252572 f 2628896 7421141 iot 19169072 0 th 0 0 0 pt 0 inp 0 0 1270533.755
+02-26 23:09:32.076  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-26 23:09:32.079  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-26 23:09:32.079  2440  4529 D InetDiagMessage: Destroyed live tcp sockets for uids={10459} in 9ms
+02-26 23:09:32.082  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-26 23:09:32.085  2440  4529 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-26 23:09:32.085  2440  4529 D InetDiagMessage: Destroyed live tcp sockets for uids={20459} in 6ms
+02-26 23:09:32.495 27667 27760 D ProfileInstaller: Installing profile for com.lockin.app
+02-26 23:09:32.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143772
+02-26 23:09:32.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:32.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:32.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:32.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:32.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:32.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:32.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:32.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:32.847  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10074966] accel_sample [-0.145,  0.066,  9.775] 2095720239579728
+02-26 23:09:33.509  1964  2063 E BatteryDump: !@new_battery_dump : 4172,-7,700,3370,79,264,254,273,264,0,278,273,0,Not-charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,9300,0x8000,0x11010000,0x0,0,0,123,v0002,0000,0000,00000000,0,0,0,0,100,4173,7961,1000,0,
+02-26 23:09:33.510  1967  1967 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+02-26 23:09:33.510  1964  1964 I sehhealth-service: updateLrpSysfs: write: 278
+02-26 23:09:33.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143773
+02-26 23:09:33.522  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:33.522  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:33.522  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:33.522  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:33.522  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:33.522  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:33.522  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:33.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:33.692  1375  1375 D io_stats: !@   8,0 r 158239741 3723066336 w 86978322 1360856932 d 9062469 1339252572 f 2628896 7421141 iot 19169080 0 th 0 0 0 pt 0 inp 0 0 1270535.756
+02-26 23:09:33.693  1375  1375 D io_stats: !@ Write_top(KB): soft.appmanager:high(20107) 16 kworker/u17:2:/(21545) 8 vendor.samsung.:normal(1964) 8
+02-26 23:09:34.032  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:09:34.032  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:09:34.032  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:09:34.140  2440  4541 W DeviceStorageMonitorService: updateBroadcasts(/data) oldLevel:0, newLevel:0, seq:1
+02-26 23:09:34.141  2440  4541 D DeviceStorageMonitorService: Available File Node Number is [12429499]
+02-26 23:09:34.141  2440  4541 W DeviceStorageMonitorService: updateBroadcasts_filenode(/data) fn_oldLevel:0, fn_newLevel:0, seq:1
+02-26 23:09:34.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143774
+02-26 23:09:34.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:34.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:34.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:34.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:34.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:34.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:34.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:34.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:34.898  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075000] accel_sample [-0.142,  0.072,  9.769] 2095722290485041
+02-26 23:09:35.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143775
+02-26 23:09:35.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:35.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:35.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:35.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:35.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:35.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:35.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:35.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:35.693  1375  1375 D io_stats: !@   8,0 r 158239741 3723066336 w 86978331 1360857544 d 9062469 1339252572 f 2628896 7421143 iot 19169092 0 th 0 0 0 pt 0 inp 0 0 1270537.757
+02-26 23:09:36.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143776
+02-26 23:09:36.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:36.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:36.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:36.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:36.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:36.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:36.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:36.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:36.948  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075034] accel_sample [-0.144,  0.069,  9.769] 2095724341448270
+02-26 23:09:37.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143777
+02-26 23:09:37.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:37.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:37.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:37.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:37.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:37.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:37.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:37.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:37.694  1375  1375 D io_stats: !@   8,0 r 158239741 3723066336 w 86978466 1360858120 d 9062469 1339252572 f 2628900 7421147 iot 19169096 0 th 0 0 0 pt 0 inp 0 0 1270539.758
+02-26 23:09:37.694  1375  1375 D io_stats: !@ Write_top(KB): system_server:normal(2440) 608 kworker/4:1:/(27249) 280 f2fs_ckpt-254:8:/(5421) 276
+02-26 23:09:37.759  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1017600:1017600:1017600:588672:1363200:556800:222:222:222
+02-26 23:09:38.247  1967  2506 I thermal_core: pivot(AP) : 273, skin : 278
+02-26 23:09:38.285  1929  1929 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:38.285  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:38.285  1929  1929 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:09:38.285  1929  1929 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:38.286  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:38.286  1929  1929 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:09:38.287  7813  8415 I SDHMS:x : SIOP:: AP:273 BAT:264 USB:254 CHG:272 PA:278 WIFI:271 CF:270 BLK:0 SUBBAT:0 LRPTHM:266 SKIN:278 SKINF:278 SKINB:278 LRP:278 LRF:278 LRB:278 APT:278 APR:278 RCV:272 SPK:259 CHGF:275 CHGR:276 MEMF:277 MEMR:278 WIFIF:277 WIFIR:276 FCAM:254 UPSPK:267 DNSPK:255 VAP:275 VWIFI:273 AMB2:226 HIGH:0 AVGCUR:-6 POWER:-25
+02-26 23:09:38.290  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:09:38.290  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:09:38.291  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:38.291  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:38.291  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:09:38.292  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:38.292  1929  1929 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:09:38.292  1929  1929 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:09:38.292  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:38.292  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:38.293  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:38.293  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:38.294  2033  5051 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:38.294  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:38.294  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:38.294  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:09:38.294  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:38.294  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:09:38.294  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:09:38.294  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:38.295  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:38.295  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:38.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143778
+02-26 23:09:38.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:38.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:38.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:38.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:38.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:38.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:38.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:38.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:39.000  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075068] accel_sample [-0.145,  0.065,  9.773] 2095726392388791
+02-26 23:09:39.043  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:09:39.043  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:09:39.043  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:09:39.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143779
+02-26 23:09:39.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:39.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:39.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:39.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:39.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:39.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:39.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:39.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:39.695  1375  1375 D io_stats: !@   8,0 r 158239741 3723066336 w 86978468 1360858128 d 9062469 1339252572 f 2628900 7421147 iot 19169100 0 th 0 0 0 pt 0 inp 0 0 1270541.759
+02-26 23:09:40.222  2440  4244 D CustomizedBinderCallsStatsInternal: reportCpuUsage() : 0%
+02-26 23:09:40.222  2440  2612 I BinderCallsStats: Collected cpu time : 0us, collected call count : 0 for 27642482 ms
+02-26 23:09:40.223  2440  4244 D ProcessCpuUsage: [0] 815, {556=225060, 748=25930, 960=4490, 1152=1440, 1363=4230, 1555=3480, 1785=1000, 1996=730, 2227=23270, 2400=7090, 2918=3610}
+02-26 23:09:40.223  2440  4244 D ProcessCpuUsage: [6] 1069, {1017=290510, 2246=6470, 3072=1660, 3283=1160, 3513=590}
+02-26 23:09:40.226  2440  4244 W ProcessStats: Tracking association SourceState{abfca4c com.sec.android.daemonapp:weather_content_provider/10243 BFgs #3966271} whose proc state 4 is better than process ProcessState{8ea9faa com.sec.android.daemonapp/10243 pkg=com.sec.android.daemonapp} proc state 5 (18 skipped)
+02-26 23:09:40.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143780
+02-26 23:09:40.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:40.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:40.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:40.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:40.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:40.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:40.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:40.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:41.051  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075102] accel_sample [-0.165,  0.057,  9.778] 2095728443313895
+02-26 23:09:41.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143781
+02-26 23:09:41.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:41.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:41.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:41.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:41.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:41.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:41.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:41.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:41.696  1375  1375 D io_stats: !@   8,0 r 158239742 3723066340 w 86978477 1360858156 d 9062469 1339252572 f 2628900 7421149 iot 19169112 0 th 0 0 0 pt 0 inp 0 0 1270543.760
+02-26 23:09:41.697  1375  1375 D io_stats: !@ Read_top(KB): soft.appmanager:high(20107) 4
+02-26 23:09:41.697  1375  1375 D io_stats: !@ Write_top(KB): soft.appmanager:high(20107) 16 kworker/u17:2:/(21545) 12 kworker/4:1:/(27249) 4
+02-26 23:09:42.277  2440  2602 E Watchdog: !@Sync: 42332 heap(MB): 209 / 217 FD: 1621 [2026-02-26 23:09:42.277]
+02-26 23:09:42.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143782
+02-26 23:09:42.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:42.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:42.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:42.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:42.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:42.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:42.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:42.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:43.101  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075136] accel_sample [-0.122,  0.075,  9.768] 2095730494219312
+02-26 23:09:43.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143783
+02-26 23:09:43.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:43.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:43.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:43.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:43.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:43.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:43.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:43.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:43.681  1967  1967 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+02-26 23:09:43.681  1964  1964 I sehhealth-service: updateLrpSysfs: write: 278
+02-26 23:09:43.681  1964  2063 E BatteryDump: !@new_battery_dump : 4173,2,700,3370,79,264,254,270,264,0,278,270,0,Not-charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,9300,0x8000,0x11010000,0x0,0,0,105,v0002,0000,0000,00000000,0,0,0,0,100,4173,7961,1000,0,
+02-26 23:09:43.697  1375  1375 D io_stats: !@   8,0 r 158239742 3723066340 w 86978481 1360858632 d 9062469 1339252572 f 2628900 7421149 iot 19169120 0 th 0 0 0 pt 0 inp 0 0 1270545.761
+02-26 23:09:44.053  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:09:44.053  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:09:44.054  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:09:44.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143784
+02-26 23:09:44.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:44.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:44.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:44.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:44.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:44.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:44.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:44.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:45.152  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075170] accel_sample [-0.138,  0.072,  9.773] 2095732545133270
+02-26 23:09:45.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143785
+02-26 23:09:45.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:45.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:45.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:45.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:45.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:45.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:45.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:45.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:45.698  1375  1375 D io_stats: !@   8,0 r 158239746 3723066356 w 86978481 1360858632 d 9062469 1339252572 f 2628900 7421149 iot 19169124 0 th 0 0 0 pt 0 inp 0 0 1270547.762
+02-26 23:09:45.699  1375  1375 D io_stats: !@ Read_top(KB): .gms.persistent:high(17413) 12 .gms.persistent:high(17413) 4
+02-26 23:09:45.699  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:2:/(21545) 468 vendor.samsung.:normal(1964) 8
+02-26 23:09:46.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143786
+02-26 23:09:46.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:46.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:46.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:46.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:46.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:46.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:46.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:46.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:46.558  2440 23294 I Mocca_PhoneUsageProvider: (1.1.04.1)PhoneUsageListener: false,1772143112519,1772143116888
+02-26 23:09:47.203  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075204] accel_sample [-0.147,  0.066,  9.773] 2095734596083999
+02-26 23:09:47.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143787
+02-26 23:09:47.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:47.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:47.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:47.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:47.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:47.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:47.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:47.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:47.874  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1017600:1017600:1017600:572927:1363200:556800:222:222:222
+02-26 23:09:48.290  1967  2506 I thermal_core: pivot(AP) : 271, skin : 278
+02-26 23:09:48.331  1929  1929 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:48.331  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:48.331  1929  1929 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:09:48.332  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:48.332  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:48.332  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:09:48.333  7813  8415 I SDHMS:x : SIOP:: AP:271 BAT:264 USB:254 CHG:269 PA:275 WIFI:270 CF:270 BLK:0 SUBBAT:0 LRPTHM:265 SKIN:279 SKINF:277 SKINB:279 LRP:279 LRF:277 LRB:279 APT:277 APR:279 RCV:272 SPK:259 CHGF:274 CHGR:277 MEMF:276 MEMR:278 WIFIF:276 WIFIR:277 FCAM:254 UPSPK:266 DNSPK:254 VAP:274 VWIFI:273 AMB2:226 HIGH:0 AVGCUR:-2 POWER:-8
+02-26 23:09:48.334  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:09:48.335  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:09:48.335  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:48.335  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:48.335  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:09:48.335  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:48.336  1929  1929 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:09:48.336  1929  1929 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:09:48.336  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:48.336  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:48.336  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:48.337  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:48.337  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:48.339  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:48.339  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:48.339  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:09:48.340  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:48.340  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:09:48.340  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:09:48.340  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:48.340  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:48.340  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:48.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143788
+02-26 23:09:48.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:48.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:48.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:48.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:48.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:48.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:48.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:48.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:49.073  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:09:49.073  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:09:49.073  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:09:49.255  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075238] accel_sample [-0.151,  0.061,  9.774] 2095736647067228
+02-26 23:09:49.495  2440  4567 D UsbStatsMonitor: 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 223338299396
+02-26 23:09:49.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143789
+02-26 23:09:49.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:49.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:49.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:49.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:49.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:49.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:49.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:49.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:49.701  1375  1375 D io_stats: !@   8,0 r 158239746 3723066356 w 86978483 1360858640 d 9062469 1339252572 f 2628900 7421149 iot 19169128 0 th 0 0 0 pt 0 inp 0 0 1270551.765
+02-26 23:09:49.702  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:2:/(21545) 8
+02-26 23:09:50.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143790
+02-26 23:09:50.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:50.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:50.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:50.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:50.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:50.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:50.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:50.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:51.306  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075272] accel_sample [-0.150,  0.064,  9.774] 2095738698076812
+02-26 23:09:51.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143791
+02-26 23:09:51.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:51.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:51.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:51.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:51.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:51.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:51.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:51.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:51.703  1375  1375 D io_stats: !@   8,0 r 158239746 3723066356 w 86978491 1360858664 d 9062469 1339252572 f 2628901 7421151 iot 19169132 0 th 0 0 0 pt 0 inp 0 0 1270553.767
+02-26 23:09:52.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143792
+02-26 23:09:52.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:52.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:52.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:52.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:52.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:52.527  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:52.527  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:52.527  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:53.356  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075306] accel_sample [-0.142,  0.064,  9.774] 2095740749100666
+02-26 23:09:53.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143793
+02-26 23:09:53.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:53.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:53.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:53.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:53.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:53.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:53.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:53.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:53.704  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:2:/(21545) 20 soft.appmanager:high(20107) 16 kworker/2:3:/(21666) 8
+02-26 23:09:53.850  1967  1967 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+02-26 23:09:53.850  1964  1964 I sehhealth-service: updateLrpSysfs: write: 279
+02-26 23:09:53.851  1964  2063 E BatteryDump: !@new_battery_dump : 4172,7,700,3370,79,264,254,268,264,0,278,268,0,Not-charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,9300,0x8000,0x11010000,0x0,0,0,93,v0002,0000,0000,00000000,0,0,0,0,100,4173,7961,1000,0,
+02-26 23:09:54.083  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:09:54.083  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:09:54.084  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:09:54.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143794
+02-26 23:09:54.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:54.523  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:54.523  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:54.523  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:54.523  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:54.523  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:54.523  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:54.523  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:54.601  2440  2657 D BatteryExternalStatsWorker: update stats : procstate-change (10)
+02-26 23:09:54.602  2440  2657 D BatteryExternalStatsWorker: Fetch WiFi data
+02-26 23:09:54.602  2440  2657 D BatteryExternalStatsWorker: Update Rail Energy data
+02-26 23:09:54.603  2440  2657 D BatteryExternalStatsWorker: mStats lock released
+02-26 23:09:54.603  2440  2657 D BatteryExternalStatsWorker: done updateExternalStatsLocked
+02-26 23:09:55.407  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075340] accel_sample [-0.147,  0.066,  9.771] 2095742800073166
+02-26 23:09:55.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143795
+02-26 23:09:55.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:55.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:55.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:55.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:55.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:55.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:55.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:55.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:55.622  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+02-26 23:09:55.626  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:09:55.627  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:4
+02-26 23:09:55.627  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:09:55.628  2440  4611 I SemWifiIntelligentTrainingManager: Tr. cond. check: false / 1 (2) / false / 0 (1)
+02-26 23:09:55.628  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]id:6
+02-26 23:09:55.628  2440  4611 I BatteryService_BatteryPropertiesRegistrar: [getProperty]prop.long:-9223372036854775808 ,prop.string:null
+02-26 23:09:56.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143796
+02-26 23:09:56.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:56.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:56.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:56.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:56.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:56.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:56.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:56.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:57.459  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075374] accel_sample [-0.146,  0.065,  9.773] 2095744851064728
+02-26 23:09:57.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143797
+02-26 23:09:57.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:57.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:57.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:57.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:57.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:57.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:57.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:57.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:57.707  1375  1375 D io_stats: !@ Write_top(KB): vendor.samsung.:normal(1964) 8
+02-26 23:09:57.985  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1017600:1017600:1017600:576767:1555200:556800:222:222:222
+02-26 23:09:58.335  1967  2506 I thermal_core: pivot(AP) : 269, skin : 279
+02-26 23:09:58.370  1929  1929 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:58.370  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:58.370  1929  1929 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:09:58.370  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:09:58.370  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:58.370  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:09:58.372  7813  8415 I SDHMS:x : SIOP:: AP:270 BAT:264 USB:253 CHG:268 PA:273 WIFI:269 CF:269 BLK:0 SUBBAT:0 LRPTHM:265 SKIN:277 SKINF:276 SKINB:277 LRP:277 LRF:276 LRB:277 APT:276 APR:277 RCV:272 SPK:259 CHGF:275 CHGR:276 MEMF:276 MEMR:277 WIFIF:276 WIFIR:276 FCAM:254 UPSPK:266 DNSPK:254 VAP:274 VWIFI:272 AMB2:225 HIGH:0 AVGCUR:0 POWER:0
+02-26 23:09:58.374  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:09:58.375  2033  5051 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:09:58.375  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:58.375  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:58.375  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:09:58.375  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:58.375  1929  1929 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:09:58.375  1929  1929 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:09:58.375  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:58.376  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:58.376  2033  5051 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:58.376  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:58.377  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:09:58.378  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:09:58.378  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:09:58.378  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:09:58.378  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:09:58.378  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:09:58.378  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:09:58.378  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:09:58.378  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:58.379  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:09:58.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143798
+02-26 23:09:58.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:58.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:58.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:58.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:58.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:58.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:58.527  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:58.527  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:59.099  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:09:59.099  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:09:59.101  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:09:59.510  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075408] accel_sample [-0.142,  0.071,  9.773] 2095746902037333
+02-26 23:09:59.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143799
+02-26 23:09:59.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:09:59.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:09:59.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535729
+02-26 23:09:59.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:09:59.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:09:59.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:09:59.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:09:59.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:09:59.707  1375  1375 D io_stats: !@   8,0 r 158239746 3723066356 w 86978499 1360858696 d 9062469 1339252572 f 2628901 7421151 iot 19169136 0 th 0 0 0 pt 0 inp 0 0 1270561.771
+02-26 23:10:00.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143800
+02-26 23:10:00.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:00.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:00.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:00.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:00.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:00.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:00.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:00.526  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:01.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143801
+02-26 23:10:01.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:01.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:01.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:01.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:01.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:01.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:01.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:01.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:01.561  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075442] accel_sample [-0.143,  0.064,  9.775] 2095748953017853
+02-26 23:10:01.708  1375  1375 D io_stats: !@   8,0 r 158239746 3723066356 w 86978507 1360858720 d 9062469 1339252572 f 2628902 7421153 iot 19169140 0 th 0 0 0 pt 0 inp 0 0 1270563.772
+02-26 23:10:01.709  1375  1375 D io_stats: !@ Write_top(KB): soft.appmanager:high(20107) 16 kworker/2:3:/(21666) 8 kworker/u17:4:/(24651) 4
+02-26 23:10:02.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143802
+02-26 23:10:02.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:02.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:02.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:02.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:02.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:02.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:02.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:02.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:03.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143803
+02-26 23:10:03.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:03.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:03.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:03.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:03.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:03.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:03.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:03.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:03.611  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075476] accel_sample [-0.141,  0.072,  9.770] 2095751004002020
+02-26 23:10:03.976 11832 11832 D WM-DelayedWorkTracker: Scheduling work c4bad412-1a0c-45bb-815e-e3818fd417e4
+02-26 23:10:03.976 11832 11832 D WM-GreedyScheduler: Starting work for c4bad412-1a0c-45bb-815e-e3818fd417e4
+02-26 23:10:03.985 11832 27767 D WM-Processor: shc: processing WorkGenerationalId(workSpecId=c4bad412-1a0c-45bb-815e-e3818fd417e4, generation=4971)
+02-26 23:10:03.986 11832 27767 D MddListenableWorkerFactory: createWorker for class: com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+02-26 23:10:03.990 11832 11832 D WM-WorkerWrapper: Starting work for com.google.apps.tiktok.contrib.work.TikTokListenableWorker
+02-26 23:10:04.000 11832 11832 I SyncManagerImpl: #sync(). Running Synclets and scheduling next sync.
+02-26 23:10:04.011  1964  2063 E BatteryDump: !@new_battery_dump : 4172,-2,700,3370,79,264,254,267,264,0,279,267,0,Not-charging,NO_CHARGING,Normal,Good,PDIC,0,Normal,0,0,9300,0x8000,0x11010000,0x0,0,0,86,v0002,0000,0000,00000000,0,0,0,0,100,4173,7961,1000,0,
+02-26 23:10:04.015  1967  1967 I seh_thermal_service: getTemperaturesWithType SehTemperatureType: 3
+02-26 23:10:04.016  1964  1964 I sehhealth-service: updateLrpSysfs: write: 277
+02-26 23:10:04.019 11832 11888 I SyncManagerImpl: Running synclets: [TemplateFetcherSynclet]
+02-26 23:10:04.024 11832 11866 I SyncManagerImpl: Starting synclet: TemplateFetcherSynclet
+02-26 23:10:04.027 11832 11884 I BugleSpam: cache miss! load and set cached templates at version 20260213070454NL, norm 
+02-26 23:10:04.065 11832 11884 I BugleSpam: ignoring the new spam templates, current 20260213070454NL, new . Version too old
+02-26 23:10:04.066 11832 11866 I BugleSpam: invalidating the spam templates cache
+02-26 23:10:04.068 11832 11888 I SyncManagerImpl: Completed sync. Scheduling next wakeup
+02-26 23:10:04.068 11832 11888 I SyncWorkManagerPeriodic: Scheduling next periodic WorkManager workers
+02-26 23:10:04.068 11832 11887 I SyncManagerImpl: #sync() complete
+02-26 23:10:04.068 11832 27767 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=c4bad412-1a0c-45bb-815e-e3818fd417e4, tags={ com.google.apps.tiktok.contrib.work.TikTokListenableWorker,com.google.apps.tiktok.sync.impl.workmanager.SyncPeriodicWorker,sync_constraint:none,TikTokWorker#com.google.apps.tiktok.sync.impl.workmanager.SyncPeriodicWorker } ]
+02-26 23:10:04.070 11832 11832 D WM-Processor: shc c4bad412-1a0c-45bb-815e-e3818fd417e4 executed; reschedule = false
+02-26 23:10:04.072 11832 27768 D WM-GreedyScheduler: Cancelling work ID c4bad412-1a0c-45bb-815e-e3818fd417e4
+02-26 23:10:04.078 11832 27768 D WM-SystemJobScheduler: Scheduling work ID c4bad412-1a0c-45bb-815e-e3818fd417e4Job ID 2112
+02-26 23:10:04.079 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 4578086f-baec-4a47-bdb1-83b865c5975f}. Requires device idle.
+02-26 23:10:04.079 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 7921fbc6-5821-445c-9967-242e81847266}. Requires ContentUri triggers.
+02-26 23:10:04.079 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 344ebbd7-b83f-4426-8a11-3d5f9bca2721}. Requires device idle.
+02-26 23:10:04.079 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 15607121-cb23-443f-8229-357f6eaa05b4}. Requires ContentUri triggers.
+02-26 23:10:04.079 11832 27768 D WM-GreedyScheduler: Starting tracking for 8b0bf9b5-f1ae-47ac-8bf0-d80090ab15b8,6d215f31-b6c0-4ebd-adb7-8c1c8d2e2942
+02-26 23:10:04.083 11832 27767 D WM-GreedyScheduler: Cancelling work ID 59c325a2-897b-4765-8c65-67f5c5bd6a04
+02-26 23:10:04.087 11832 27767 D WM-SystemJobScheduler: Scheduling work ID 59c325a2-897b-4765-8c65-67f5c5bd6a04Job ID 2113
+02-26 23:10:04.088 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 4578086f-baec-4a47-bdb1-83b865c5975f}. Requires device idle.
+02-26 23:10:04.088 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 7921fbc6-5821-445c-9967-242e81847266}. Requires ContentUri triggers.
+02-26 23:10:04.088 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 344ebbd7-b83f-4426-8a11-3d5f9bca2721}. Requires device idle.
+02-26 23:10:04.088 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 15607121-cb23-443f-8229-357f6eaa05b4}. Requires ContentUri triggers.
+02-26 23:10:04.088 11832 27767 D WM-GreedyScheduler: Starting tracking for 8b0bf9b5-f1ae-47ac-8bf0-d80090ab15b8,6d215f31-b6c0-4ebd-adb7-8c1c8d2e2942
+02-26 23:10:04.091 11832 27767 D WM-GreedyScheduler: Cancelling work ID 14dd463e-412c-4a90-9276-32653104a0ab
+02-26 23:10:04.095 11832 27767 D WM-SystemJobScheduler: Scheduling work ID 14dd463e-412c-4a90-9276-32653104a0abJob ID 2114
+02-26 23:10:04.097 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 4578086f-baec-4a47-bdb1-83b865c5975f}. Requires device idle.
+02-26 23:10:04.097 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 7921fbc6-5821-445c-9967-242e81847266}. Requires ContentUri triggers.
+02-26 23:10:04.097 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 344ebbd7-b83f-4426-8a11-3d5f9bca2721}. Requires device idle.
+02-26 23:10:04.097 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 15607121-cb23-443f-8229-357f6eaa05b4}. Requires ContentUri triggers.
+02-26 23:10:04.097 11832 27767 D WM-GreedyScheduler: Starting tracking for 8b0bf9b5-f1ae-47ac-8bf0-d80090ab15b8,6d215f31-b6c0-4ebd-adb7-8c1c8d2e2942
+02-26 23:10:04.099 11832 27768 D WM-GreedyScheduler: Cancelling work ID 6d215f31-b6c0-4ebd-adb7-8c1c8d2e2942
+02-26 23:10:04.105 11832 27768 D WM-SystemJobScheduler: Scheduling work ID 6d215f31-b6c0-4ebd-adb7-8c1c8d2e2942Job ID 2115
+02-26 23:10:04.106 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 4578086f-baec-4a47-bdb1-83b865c5975f}. Requires device idle.
+02-26 23:10:04.106 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 7921fbc6-5821-445c-9967-242e81847266}. Requires ContentUri triggers.
+02-26 23:10:04.106 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 344ebbd7-b83f-4426-8a11-3d5f9bca2721}. Requires device idle.
+02-26 23:10:04.106 11832 27768 D WM-GreedyScheduler: Ignoring {WorkSpec: 15607121-cb23-443f-8229-357f6eaa05b4}. Requires ContentUri triggers.
+02-26 23:10:04.106 11832 27768 D WM-GreedyScheduler: Starting tracking for 8b0bf9b5-f1ae-47ac-8bf0-d80090ab15b8
+02-26 23:10:04.109 11832 27767 D WM-GreedyScheduler: Cancelling work ID c4bad412-1a0c-45bb-815e-e3818fd417e4
+02-26 23:10:04.110 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 4578086f-baec-4a47-bdb1-83b865c5975f}. Requires device idle.
+02-26 23:10:04.111 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 7921fbc6-5821-445c-9967-242e81847266}. Requires ContentUri triggers.
+02-26 23:10:04.111 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 344ebbd7-b83f-4426-8a11-3d5f9bca2721}. Requires device idle.
+02-26 23:10:04.111 11832 27767 D WM-GreedyScheduler: Ignoring {WorkSpec: 15607121-cb23-443f-8229-357f6eaa05b4}. Requires ContentUri triggers.
+02-26 23:10:04.111 11832 27767 D WM-GreedyScheduler: Starting tracking for 8b0bf9b5-f1ae-47ac-8bf0-d80090ab15b8
+02-26 23:10:04.113 11832 11866 I SyncWorkManagerPeriodic: Successfully scheduled next periodic workers
+02-26 23:10:04.121  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:10:04.121  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:10:04.121  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:10:04.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143804
+02-26 23:10:04.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:04.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:04.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:04.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:04.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:04.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:04.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:04.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:05.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143805
+02-26 23:10:05.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:05.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:05.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:05.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:05.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:05.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:05.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:05.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:05.663  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075510] accel_sample [-0.144,  0.073,  9.774] 2095753054939520
+02-26 23:10:05.711  1375  1375 D io_stats: !@   8,0 r 158240121 3723073500 w 86978540 1360859092 d 9062469 1339252572 f 2628902 7421153 iot 19169184 0 th 0 0 0 pt 0 inp 0 0 1270567.775
+02-26 23:10:05.711  1375  1375 D io_stats: !@ Read_top(KB): .apps.messaging:low(11832) 7144
+02-26 23:10:05.711  1375  1375 D io_stats: !@ Write_top(KB): .apps.messaging:low(11832) 348 kworker/u17:4:/(24651) 16 vendor.samsung.:normal(1964) 8
+02-26 23:10:06.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143806
+02-26 23:10:06.526  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:06.526  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:06.526  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:06.526  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:06.526  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:06.526  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:06.527  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:06.527  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:07.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143807
+02-26 23:10:07.524  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:07.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:07.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:07.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:07.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:07.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:07.524  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:07.524  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:07.713  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075544] accel_sample [-0.146,  0.067,  9.774] 2095755105891916
+02-26 23:10:08.089  7813  7813 I SDHMS:LOAD: type: LoadsFreqs, value: 0:0:0:1017600:1017600:1017600:584832:1555200:556800:222:222:222
+02-26 23:10:08.374  1967  2506 I thermal_core: pivot(AP) : 269, skin : 277
+02-26 23:10:08.409  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:10:08.409  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:10:08.409  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_rcv: 0
+02-26 23:10:08.409  1929  1954 D AHAL_ModulePrimary_QTI: getVendorParameters: id count: 1
+02-26 23:10:08.410  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:10:08.410  1929  1954 D AHAL_SecModulePrimary: onGetSECGenericParameters get temperature for g_hw_speaker_amp_temp_spk: 0
+02-26 23:10:08.411  7813  8415 I SDHMS:x : SIOP:: AP:269 BAT:264 USB:253 CHG:267 PA:273 WIFI:269 CF:268 BLK:0 SUBBAT:0 LRPTHM:265 SKIN:277 SKINF:277 SKINB:276 LRP:277 LRF:277 LRB:276 APT:277 APR:276 RCV:271 SPK:259 CHGF:275 CHGR:275 MEMF:276 MEMR:276 WIFIF:276 WIFIR:274 FCAM:254 UPSPK:266 DNSPK:254 VAP:273 VWIFI:272 AMB2:225 HIGH:0 AVGCUR:0 POWER:0
+02-26 23:10:08.411  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_spk=26
+02-26 23:10:08.412  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_spk=26
+02-26 23:10:08.413  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:10:08.413  1929  1954 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:10:08.414  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_spk
+02-26 23:10:08.414  1929  1954 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:10:08.414  1929  1954 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_spk: 26
+02-26 23:10:08.414  1929  1954 I PAL: API: pal_set_param: 1377: Enter: param id 3002
+02-26 23:10:08.414  1929  1954 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:10:08.414  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:10:08.415  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:10:08.415  7813  8415 I AudioManager: setParameters keyValuePairs = g_hw_speaker_amp_temp_rcv=27
+02-26 23:10:08.416  2033  7184 D AudioFlinger: setParameters: filtered dev setParameters keyvalue g_hw_speaker_amp_temp_rcv=27
+02-26 23:10:08.417  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters enter
+02-26 23:10:08.417  1929  1929 D AHAL_HFP_QTI: hfp_set_parameters Exit
+02-26 23:10:08.417  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: configured g_hw_speaker_amp_temp_rcv
+02-26 23:10:08.417  1929  1929 D AHAL_SecModulePrimary: processSetVendorParameters: handler set on Feature:0
+02-26 23:10:08.417  1929  1929 D AHAL_SecModulePrimary: onSetSECGenericParameters set temperature for g_hw_speaker_amp_temp_rcv: 27
+02-26 23:10:08.417  1929  1929 I PAL: API: pal_set_param: 1377: Enter: param id 3001
+02-26 23:10:08.417  1929  1929 I PAL: ResourceManager: getActiveStream_l: 6569: no active streams found for device 3 ret -2
+02-26 23:10:08.417  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:10:08.418  2033  7184 E ConversionHelperAidl: Function: parseAndSetVendorParameters Line: 94 Failed 
+02-26 23:10:08.520  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143808
+02-26 23:10:08.523  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:08.524  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:08.524  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:08.524  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:08.524  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:08.524  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:08.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:08.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:09.134  2440  2923 D MARsPolicyManager: triggerAction called!
+02-26 23:10:09.135  2440  2923 I NSLocationMonitor: getGPSUsingApps() called
+02-26 23:10:09.135  5529  5601 I NSLocationManager_FLP: getGPSUsingApps, No change
+02-26 23:10:09.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143809
+02-26 23:10:09.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:09.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:09.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:09.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:09.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:09.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:09.525  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:09.525  2051  2083 E HeatmapThread: !@ CAM is Working
+02-26 23:10:09.714  1375  1375 D io_stats: !@   8,0 r 158240121 3723073500 w 86978557 1360859256 d 9062469 1339252572 f 2628902 7421153 iot 19169188 0 th 0 0 0 pt 0 inp 0 0 1270571.778
+02-26 23:10:09.714  1375  1375 D io_stats: !@ Write_top(KB): kworker/u17:4:/(24651) 164
+02-26 23:10:09.764  1926 18151 I sensors-hal: handle_sns_client_event:379, [0][10075578] accel_sample [-0.144,  0.067,  9.768] 2095757156856812
+02-26 23:10:10.521  2051  2083 E HeatmapThread: ECT Thread time in milliseconds: 1772143810
+02-26 23:10:10.525  2051  2083 D HeatmapThread: !@ batteryplugType : 1
+02-26 23:10:10.525  2051  2083 D HeatmapThread: !@ batteryLevel : 79  batteryTemperature : 264 
+02-26 23:10:10.525  2051  2083 D HeatmapThread: !@ Heatmap currtime: 29535730
+02-26 23:10:10.525  2051  2083 D HeatmapThread: !@ Heatmap prevtime: 29535718
+02-26 23:10:10.525  2051  2083 D HeatmapThread: !@ Heatmap plugstarttime: 29535619
+02-26 23:10:10.525  2051  2083 D HeatmapThread: !@ Heatmap prevv_dsoh_update_time: 29535709
+02-26 23:10:10.526  2051  2083 E HeatmapThread: !@ CAM New BSOH: 100
+02-26 23:10:10.526  2051  2083 E HeatmapThread: !@ CAM is Working

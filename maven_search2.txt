@@ -1,0 +1,56 @@
+﻿{
+    "responseHeader":  {
+                           "status":  0,
+                           "QTime":  2,
+                           "params":  {
+                                          "q":  "g:com.google.devtools.ksp AND a:com.google.devtools.ksp.gradle.plugin",
+                                          "core":  "",
+                                          "indent":  "off",
+                                          "spellcheck":  "true",
+                                          "fl":  "id,g,a,latestVersion,p,ec,repositoryId,text,timestamp,versionCount",
+                                          "start":  "",
+                                          "spellcheck.count":  "5",
+                                          "sort":  "score desc,timestamp desc,g asc,a asc",
+                                          "rows":  "5",
+                                          "wt":  "json",
+                                          "version":  "2.2"
+                                      }
+                       },
+    "response":  {
+                     "numFound":  1,
+                     "start":  0,
+                     "docs":  [
+                                  {
+                                      "id":  "com.google.devtools.ksp:com.google.devtools.ksp.gradle.plugin",
+                                      "g":  "com.google.devtools.ksp",
+                                      "a":  "com.google.devtools.ksp.gradle.plugin",
+                                      "latestVersion":  "2.2.0-2.0.2",
+                                      "repositoryId":  "central",
+                                      "p":  "pom",
+                                      "timestamp":  1750788972048,
+                                      "versionCount":  133,
+                                      "text":  [
+                                                   "com.google.devtools.ksp",
+                                                   "com.google.devtools.ksp.gradle.plugin",
+                                                   ".pom.sha512",
+                                                   ".pom",
+                                                   ".pom.asc.sha256",
+                                                   ".pom.asc.sha512",
+                                                   ".pom.sha256"
+                                               ],
+                                      "ec":  [
+                                                 ".pom.sha512",
+                                                 ".pom",
+                                                 ".pom.asc.sha256",
+                                                 ".pom.asc.sha512",
+                                                 ".pom.sha256"
+                                             ]
+                                  }
+                              ]
+                 },
+    "spellcheck":  {
+                       "suggestions":  [
+
+                                       ]
+                   }
+}

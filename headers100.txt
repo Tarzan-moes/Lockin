@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Age: 17
+Author: ExerciseDB API
+Cache-Control: s-maxage=300, stale-while-revalidate
+Content-Length: 81472
+Content-Type: application/json; charset=UTF-8
+Date: Sun, 01 Mar 2026 23:56:06 GMT
+Github: https://github.com/exercisedb/exercisedb-api
+Server: Vercel
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Response-Time: 2ms
+X-Vercel-Cache: HIT
+X-Vercel-Id: fra1::sfo1::75lnm-1772409384206-47219ce1c6db
+

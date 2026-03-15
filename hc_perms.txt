@@ -1,0 +1,6 @@
+Error while accessing provider:com.google.android.healthconnect.controller
+java.lang.IllegalStateException: Could not find provider: com.google.android.healthconnect.controller
+	at com.android.commands.content.Content$Command.execute(Content.java:519)
+	at com.android.commands.content.Content.main(Content.java:735)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:410)

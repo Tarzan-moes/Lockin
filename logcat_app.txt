@@ -1,0 +1,107 @@
+﻿--------- beginning of main
+02-26 23:09:26.660 27667 27667 I com.lockin.app: Late-enabling -Xcheck:jni
+02-26 23:09:26.685 27667 27667 I com.lockin.app: Using CollectorTypeCMC GC.
+02-26 23:09:26.690 27667 27667 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-26 23:09:26.692 27667 27667 D ActivityThread: setConscryptValidator
+02-26 23:09:26.692 27667 27667 D ActivityThread: setConscryptValidator - put
+02-26 23:09:26.700 27667 27667 D CompatChangeReporter: Compat change id reported: 242716250; UID 10459; state: ENABLED
+02-26 23:09:26.840 27667 27667 D nativeloader: Configuring clns-9 for other apk /data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/base.apk. target_sdk_version=34, uses_libraries=libOpenCL.so, library_path=/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/lib/arm64:/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.lockin.app
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: Currently set values for:
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: com.lockin.app is not listed in per-application setting
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: ANGLE allowlist from config: 
+02-26 23:09:26.843 27667 27667 V GraphicsEnvironment: com.lockin.app is not listed in ANGLE allowlist or settings, returning default
+02-26 23:09:26.844 27667 27667 V GraphicsEnvironment: App is not on the allowlist for updatable production driver.
+02-26 23:09:26.854 27667 27667 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+02-26 23:09:26.868 27667 27667 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+02-26 23:09:26.868 27667 27667 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+02-26 23:09:26.873 27667 27730 D WM-ForceStopRunnable: The default process name was not specified.
+02-26 23:09:26.874 27667 27730 D WM-ForceStopRunnable: Performing cleanup operations.
+02-26 23:09:26.880 27667 27730 E ashmem  : Pinning is deprecated since Android Q. Please use trim or other methods.
+02-26 23:09:26.884 27667 27667 D LockinApp: Lockin application started
+02-26 23:09:26.884 27667 27667 D LockinApp: Background work scheduler initialized (placeholder)
+--------- beginning of system
+02-26 23:09:26.886 27667 27667 D ActivityThread: com.lockin.app will use render engine as VK
+02-26 23:09:26.886 27667 27667 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+02-26 23:09:26.886 27667 27732 I DisplayManager: Choreographer implicitly registered for the refresh rate.
+02-26 23:09:26.887 27667 27732 D HWUI    : CacheManager constructor. deviceInfo=(1080, 1920)
+02-26 23:09:26.887 27667 27732 D vulkan  : searching for layers in '/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/lib/arm64'
+02-26 23:09:26.887 27667 27732 D vulkan  : searching for layers in '/data/app/~~24k1xyttpC3bT_JsttPtAA==/com.lockin.app-dOcjTvVt-YMjsVGZfdRFGg==/base.apk!/lib/arm64-v8a'
+02-26 23:09:26.891 27667 27730 D WM-ForceStopRunnable: Application was force-stopped, rescheduling.
+02-26 23:09:26.892 27667 27732 E Adreno-AppProfiles: QSPM AIDL service doesn't exist
+02-26 23:09:26.892 27667 27732 I AdrenoVK-0: ===== BEGIN DUMP OF OVERRIDDEN SETTINGS =====
+02-26 23:09:26.892 27667 27732 I AdrenoVK-0: ===== END DUMP OF OVERRIDDEN SETTINGS =====
+02-26 23:09:26.894 27667 27732 D qdgralloc: Fetching IMapper5 from QtiMapper5
+02-26 23:09:26.895 27667 27667 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+02-26 23:09:26.896 27667 27667 I DecorView: setWindowBackground: isPopOver=false color=fffafafa d=android.graphics.drawable.ColorDrawable@6601a1e
+02-26 23:09:26.900 27667 27732 I SnapAlloc: Graphics lib is available
+02-26 23:09:26.903 27667 27739 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemalarm.RescheduleReceiver
+02-26 23:09:26.905 27667 27732 I Adreno-UNKNOWN: Using previously loaded IMapper library.
+02-26 23:09:26.905 27667 27667 D ViewRootImpl: desktopMode is false
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: QUALCOMM build          : e4a2ccdb56, Icac6f3510c
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Build Date              : 07/21/25
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Shader Compiler Version : E031.47.18.36
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Local Branch            : 
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Remote Branch           : refs/tags/AU_LINUX_ANDROID_LA.VENDOR.15.4.0.11.00.00.1088.743
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Remote Branch           : NONE
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Reconstruct Branch      : NOTHING
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Build Config            : S P 18.0.0 AArch64
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Driver Path             : /vendor/lib64/hw/vulkan.adreno.so
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Driver Version          : 0800.40.1
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: PFP                     : 0x01500077
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: ME                      : 0x01500014
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Application Name    : android framework
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Application Version : 0x00000000
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Engine Name         : android framework
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Engine Version      : 0x00000000
+02-26 23:09:26.907 27667 27732 I AdrenoVK-0: Api Version         : 0x00401000
+02-26 23:09:26.907 27667 27667 I ViewRootImpl: dVRR is disabled
+02-26 23:09:26.907 27667 27667 D HardwareRenderer: onDisplayChanged. displayId=0 current wxh=1440x3120 mLargest wxh=0x0
+02-26 23:09:26.908 27667 27667 D HardwareRenderer: Set largestWidth and largestHeight as logical resolution. (1440x3120)
+02-26 23:09:26.913 27667 27732 D HWUI    : setMaxSurfaceArea requested wxh=(1440,3120) requestedSurfaceArea(4492800) mMaxSurfaceArea(2073600)
+02-26 23:09:26.913 27667 27732 D NativeCustomFrequencyManager: [NativeCFMS] BpCustomFrequencyManager::BpCustomFrequencyManager()
+02-26 23:09:26.919 27667 27742 E perf_hint: Session ID too large, must fit 32-bit integer
+02-26 23:09:26.920 27667 27667 D InputTransport: Input channel constructed: '94c82d6', fd=122
+02-26 23:09:26.920 27667 27667 I InsetsController: onStateChanged: host=com.lockin.app/com.lockin.app.MainActivity, from=android.view.ViewRootImpl.onInsetsStateChanged:3026, state=InsetsState: {mDisplayFrame=Rect(0, 0 - 1440, 3120), mDisplayCutout=DisplayCutout{insets=Rect(0, 113 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(685, 0 - 755, 113), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1440 displayHeight=3120 physicalDisplayWidth=1440 physicalDisplayHeight=3120 density={3.75} cutoutSpec={M 0,0 H -9.333333333333333 V 30.13333333333333 H 9.333333333333333 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=53, center=Point(53, 53)}, RoundedCorner{position=TopRight, radius=53, center=Point(1387, 53)}, RoundedCorner{position=BottomRight, radius=53, center=Point(1387, 3067)}, RoundedCorner{position=BottomLeft, radius=53, center=Point(53, 3067)}]}  mRoundedCornerFrame=Rect(0, 0 - 1440, 3120), mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1286, 0 - 1440, 113) rotation=0}, mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1440 displayHeight=3120 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}, mSources= { InsetsSource: {b53d0001 mType=navigationBars mFrame=[0,2952][1440,3120] mVisible=false mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {b53d0004 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {b53d0005 mType=mandatorySystemGestures mFrame=[0,2952][1440,3120] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {b53d0006 mType=tappableElement mFrame=[0,2952][1440,3120] mVisible=true mFlags= mSideHint=BOTTOM mBoundingRects=null}, InsetsSource: {b53d0024 mType=systemGestures mFrame=[0,0][0,0] mVisible=true mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {cf690000 mType=statusBars mFrame=[0,0][1440,113] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {cf690005 mType=mandatorySystemGestures mFrame=[0,0][1440,155] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {cf690006 mType=tappableElement mFrame=[0,0][1440,113] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null}, InsetsSource: {3 mType=ime mFrame=[0,0][0,0] mVisible=false mFlags= mSideHint=NONE mBoundingRects=null}, InsetsSource: {27 mType=displayCutout mFrame=[0,0][1440,113] mVisible=true mFlags= mSideHint=TOP mBoundingRects=null} }
+02-26 23:09:26.920 27667 27667 I VRI[MainActivity]@93619ef: synced displayState. AttachInfo displayState=1
+02-26 23:09:26.921 27667 27667 I VRI[MainActivity]@93619ef: setView = com.android.internal.policy.DecorView@774660b IsHRR=false mFlingFrameRateChange=0 TM=true
+02-26 23:09:26.921 27667 27667 I IDS_TAG : Starting IDS observe window
+02-26 23:09:26.921 27667 27667 I IDS_TAG : Getting Shared Preference for com.lockin.app.LockinApplication@8cab58 uid = 10459
+02-26 23:09:26.922 27667 27667 I IDS_TAG : App com.lockin.app.LockinApplication@8cab58 has not finished training
+02-26 23:09:26.922 27667 27667 I IDS_TAG : Closing IDS observe window
+02-26 23:09:26.922 27667 27667 I IDS_TAG : Getting Shared Preference for com.lockin.app.LockinApplication@8cab58 uid = 10459
+02-26 23:09:26.923 27667 27667 I IDS_TAG : IDS count updated to 2 for com.lockin.app.LockinApplication@8cab58
+02-26 23:09:27.050 27667 27672 I com.lockin.app: Compiler allocated 5101KB to compile void android.view.ViewRootImpl.performTraversals()
+02-26 23:09:27.060 27667 27667 E com.lockin.app: Unable to open libpenguin.so: dlopen failed: library "libpenguin.so" not found.
+02-26 23:09:27.060 27667 27667 I BufferQueueProducer: [](id:6c1300000000,api:0,p:-512694320,c:27667) setDequeueTimeout:2077252342
+02-26 23:09:27.060 27667 27667 I BLASTBufferQueue_Java: new BLASTBufferQueue, mName= VRI[MainActivity]@93619ef mNativeObject= 0xb400007ab17484b0 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3585 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 android.view.Choreographer.doCallbacks:1367 android.view.Choreographer.doFrame:1292 android.view.Choreographer$FrameDisplayEventReceiver.run:1870 
+02-26 23:09:27.060 27667 27667 I BLASTBufferQueue_Java: update, w= 1440 h= 3120 mName = VRI[MainActivity]@93619ef mNativeObject= 0xb400007ab17484b0 sc.mNativeObject= 0xb400007a216f9d50 format= -1 caller= android.view.ViewRootImpl.updateBlastSurfaceIfNeeded:3590 android.view.ViewRootImpl.relayoutWindow:11685 android.view.ViewRootImpl.performTraversals:4804 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 
+02-26 23:09:27.060 27667 27667 I VRI[MainActivity]@93619ef: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)0 dur=2 res=0x3 s={true 0xb4000079f1719ff0} ch=true seqId=0
+02-26 23:09:27.061 27667 27667 D VRI[MainActivity]@93619ef: mThreadedRenderer.initialize() mSurface={isValid=true 0xb4000079f1719ff0} hwInitialized=true
+02-26 23:09:27.083 27667 27667 D VRI[MainActivity]@93619ef: reportNextDraw android.view.ViewRootImpl.performTraversals:5443 android.view.ViewRootImpl.doTraversal:3924 android.view.ViewRootImpl$TraversalRunnable.run:12903 android.view.Choreographer$CallbackRecord.run:1901 android.view.Choreographer$CallbackRecord.run:1910 
+02-26 23:09:27.083 27667 27667 D VRI[MainActivity]@93619ef: Setup new sync=wmsSync-VRI[MainActivity]@93619ef#0
+02-26 23:09:27.083 27667 27667 I VRI[MainActivity]@93619ef: Creating new active sync group VRI[MainActivity]@93619ef#1
+02-26 23:09:27.084 27667 27667 D VRI[MainActivity]@93619ef: registerCallbacksForSync syncBuffer=false
+02-26 23:09:27.099 27667 27743 D VRI[MainActivity]@93619ef: Received frameDrawingCallback syncResult=0 frameNum=1.
+02-26 23:09:27.099 27667 27743 I VRI[MainActivity]@93619ef: mWNT: t=0xb400007a71728f10 mBlastBufferQueue=0xb400007ab17484b0 fn= 1 HdrRenderState mRenderHdrSdrRatio=1.0 caller= android.view.ViewRootImpl$12.onFrameDraw:15441 android.view.ThreadedRenderer$1.onFrameDraw:718 <bottom of call stack> 
+02-26 23:09:27.099 27667 27743 I VRI[MainActivity]@93619ef: Setting up sync and frameCommitCallback
+02-26 23:09:27.099 27667 27732 I AdrenoUtils: <ReadGpuID:366>: Reading chip ID through GSL
+02-26 23:09:27.122 27667 27732 I BLASTBufferQueue: [VRI[MainActivity]@93619ef#0](f:0,a:0,s:0) onFrameAvailable the first frame is available
+02-26 23:09:27.122 27667 27732 I SurfaceComposerClient: apply transaction with the first frame. layerId: 349971, bufferData(ID: 118828860178435, frameNumber: 1)
+02-26 23:09:27.122 27667 27732 I VRI[MainActivity]@93619ef: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true
+02-26 23:09:27.123 27667 27732 D HWUI    : CFMS:: SetUp Pid : 27667    Tid : 27732
+02-26 23:09:27.123 27667 27667 D VRI[MainActivity]@93619ef: reportDrawFinished seqId=0
+02-26 23:09:27.124 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.125 27667 27732 D HWUI    : HWUI - treat SMPTE_170M as sRGB
+02-26 23:09:27.185 27667 27667 D VRI[MainActivity]@93619ef: Not drawing due to screen off
+02-26 23:09:27.202 27667 27667 I VRI[MainActivity]@93619ef: stopped(true) old = false
+02-26 23:09:27.202 27667 27667 D VRI[MainActivity]@93619ef: WindowStopped on com.lockin.app/com.lockin.app.MainActivity set to true
+02-26 23:09:27.202 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.207 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.209 27667 27667 I VRI[MainActivity]@93619ef: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)4 dur=1 res=0x2 s={false 0x0} ch=false seqId=0
+02-26 23:09:27.209 27667 27667 D VRI[MainActivity]@93619ef: Not drawing due to not visible. Reason=View.INVISIBLE
+02-26 23:09:27.211 27667 27667 I VRI[MainActivity]@93619ef: handleAppVisibility mAppVisible = true visible = false
+02-26 23:09:27.565 27667 27732 D HWUI    : CacheManager::trimMemory(20)
+02-26 23:09:27.579 27667 27667 I VRI[MainActivity]@93619ef: Relayout returned: old=(0,0,1440,3120) new=(0,0,1440,3120) relayoutAsync=false req=(1440,3120)8 dur=4 res=0x0 s={false 0x0} ch=false seqId=0
+02-26 23:09:32.495 27667 27760 D ProfileInstaller: Installing profile for com.lockin.app
