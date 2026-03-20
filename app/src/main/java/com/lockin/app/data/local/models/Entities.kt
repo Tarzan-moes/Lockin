@@ -16,8 +16,11 @@ data class WorkoutPlanEntity(
     @PrimaryKey val id: String,
     val name: String = "",
     val description: String = "",
+    val goal: String = "",
     val estimatedDurationMinutes: Int = 0,
-    val difficulty: String = "MODERATE"
+    val difficulty: String = "MODERATE",
+    val type: String = "",
+    val caloriesBurned: Int = 0
 )
 
 @Entity(tableName = "exercises")

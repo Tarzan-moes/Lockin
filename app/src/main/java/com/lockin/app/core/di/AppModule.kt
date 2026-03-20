@@ -4,6 +4,8 @@ import android.content.Context
 import androidx.room.Room
 import com.lockin.app.core.util.Constants
 import com.lockin.app.data.local.database.LockinDatabase
+import com.lockin.app.data.local.database.dao.WorkoutDao
+import com.lockin.app.data.local.database.dao.WorkoutScheduleDao
 import com.lockin.app.data.repository.*
 import com.lockin.app.domain.repository.*
 import com.lockin.app.domain.usecase.CalculateEnergyScoreUseCase
@@ -97,6 +99,13 @@ object AppModule {
     @Provides
     @Singleton
     fun provideWorkoutScheduleDao(db: LockinDatabase) = db.workoutScheduleDao()
+
+    @Provides
+    @Singleton
+    fun provideCalendarRepository(
+        scheduleDao: WorkoutScheduleDao,
+        workoutDao: WorkoutDao
+    ): CalendarRepository = CalendarRepositoryImpl(scheduleDao, workoutDao)
 
     @Provides
     @Singleton

@@ -32,7 +32,7 @@ import com.lockin.app.data.local.models.*
         // Calendar
         WorkoutScheduleEntity::class
     ],
-    version = 7,
+    version = 8,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
