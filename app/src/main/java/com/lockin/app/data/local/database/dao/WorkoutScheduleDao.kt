@@ -27,5 +27,8 @@ interface WorkoutScheduleDao {
 
     @Query("UPDATE workout_schedules SET isCompleted = :isCompleted WHERE id = :id")
     suspend fun updateCompletionStatus(id: Long, isCompleted: Boolean)
+
+    @Query("UPDATE workout_schedules SET isCompleted = 1, completedAt = :timestamp WHERE id = :id")
+    suspend fun markComplete(id: Long, timestamp: Long)
 }
 

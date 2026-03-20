@@ -28,8 +28,14 @@ interface WorkoutDao {
     @Query("SELECT * FROM workout_plans WHERE id = :id")
     suspend fun getWorkoutPlanById(id: String): WorkoutPlanEntity?
 
+    @Query("SELECT COUNT(*) FROM workout_plans")
+    suspend fun countWorkoutPlans(): Int
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertWorkoutPlan(plan: WorkoutPlanEntity)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertWorkoutPlans(plans: List<WorkoutPlanEntity>)
 
     // --- AI workout review queries ---
     @Query("SELECT * FROM workouts WHERE id = :workoutId LIMIT 1")

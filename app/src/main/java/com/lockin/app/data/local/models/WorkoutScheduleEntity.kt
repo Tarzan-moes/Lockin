@@ -12,6 +12,8 @@ data class WorkoutScheduleEntity(
     val workoutTemplateId: String,
     val scheduledDate: LocalDate,
     val isCompleted: Boolean = false,
+    val completedAt: Long? = null,
+    val notes: String? = null,
     val recurrence: String? = null // "WEEKLY" or "NONE"
 )
 
