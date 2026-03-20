@@ -56,7 +56,7 @@ fun CalendarScreen(
                 items(uiState.availableTemplates) { template ->
                     ListItem(
                         headlineContent = { Text(template.name) },
-                        supportingContent = { Text(template.goal) },
+                        supportingContent = { Text("${template.difficulty} · ${template.estimatedDurationMinutes}min") },
                         modifier = Modifier.clickable {
                             viewModel.scheduleWorkout(template.id, uiState.selectedDate)
                             showAddSheet = false
@@ -132,7 +132,12 @@ fun CalendarScreen(
                             horizontalArrangement = Arrangement.SpaceBetween
                         ) {
                             Column {
-                                Text("Workout ID: ${schedule.workoutTemplateId}") // In real app, join to get Name
+                                Text(schedule.workoutName)
+                                Text(
+                                    "${schedule.difficulty} · ${schedule.durationMinutes}min",
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = LockinTextSecondary
+                                )
                                 if (schedule.isCompleted) {
                                     Text("Completed", color = LockinSuccess)
                                 }
