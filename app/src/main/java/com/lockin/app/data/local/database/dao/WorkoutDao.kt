@@ -23,7 +23,10 @@ import java.time.LocalDateTime
 @Dao
 interface WorkoutDao {
     @Query("SELECT * FROM workout_plans")
-    suspend fun getAllWorkoutPlans(): List<WorkoutPlanEntity>
+    fun getAllWorkoutPlans(): Flow<List<WorkoutPlanEntity>>
+
+    @Query("SELECT COUNT(*) FROM workout_plans")
+    suspend fun getWorkoutPlanCount(): Int
 
     @Query("SELECT * FROM workout_plans WHERE id = :id")
     suspend fun getWorkoutPlanById(id: String): WorkoutPlanEntity?
